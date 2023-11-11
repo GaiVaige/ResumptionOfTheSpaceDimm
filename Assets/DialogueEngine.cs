@@ -1,19 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor.Rendering.Universal;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueEngine : MonoBehaviour
 {
     public DialogueScriptableObject loadedDialogue;
+    public DialogueScriptableObject nextDialogue;
+    public string thisSentence;
     public TextMeshProUGUI _namespace;
     public TextMeshProUGUI _dialogueText;
-    public SpriteRenderer image;
+    public Sprite image;
+    public int imageInt;
     public AudioSource sound;
     public AudioClip dialogueSound;
 
+    private Queue<string> sentences;
+    string sentence;
+
     void Start()
     {
+        _dialogueText.text = "";
+        sentences = new Queue<string>();
+        sentence = loadedDialogue.dialogue.ToString();
+        sentences.Enqueue(sentence);
+
+
+        imageInt = 0;
+
+        if (loadedDialogue.nextDialogue != null)
+        {
+            nextDialogue = loadedDialogue.nextDialogue;
+        }
+
+
+
         if (loadedDialogue.nameSpace != null)
         {
             _namespace.text = loadedDialogue.nameSpace;
@@ -21,37 +44,55 @@ public class DialogueEngine : MonoBehaviour
 
         if (loadedDialogue.dialogue != null)
         {
-            _dialogueText.text = loadedDialogue.dialogue;
+            StartCoroutine(TypeSentence(sentence));
         }
 
         if (loadedDialogue.art != null)
         {
-            image.sprite = loadedDialogue.art;
+            image = loadedDialogue.art[imageInt];
         }
 
         if (loadedDialogue.voiceLine != null)
         {
             sound.PlayOneShot(loadedDialogue.voiceLine);
         }
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Space) && loadedDialogue.nextDialogue != null))
+
+        if ((Input.GetKeyDown(KeyCode.Space) && nextDialogue != null))
         {
             LoadNextDialogue();
-
         }
-        else if ((Input.GetKeyDown(KeyCode.Space) && loadedDialogue.nextDialogue == null))
+        else if ((Input.GetKeyDown(KeyCode.Space) && nextDialogue == null))
         {
-            Debug.Log("I would turn off the UI here but LAYZ");
+            this.gameObject.SetActive(false);
         }
     }
 
     public void LoadNextDialogue()
     {
-        loadedDialogue = loadedDialogue.nextDialogue;
+        _dialogueText.text = "";
+        
+        imageInt = 0;
+        loadedDialogue = nextDialogue;
+        sentences.Dequeue();
+        StopAllCoroutines();
+        sentence = loadedDialogue.dialogue.ToString();
+        sentences.Enqueue(sentence);
+
+
+        if (loadedDialogue.nextDialogue != null)
+        {
+            nextDialogue = loadedDialogue.nextDialogue;
+        }
+        else
+        {
+            nextDialogue = null;
+        }
 
         if (loadedDialogue.nameSpace != null)
         {
@@ -60,17 +101,61 @@ public class DialogueEngine : MonoBehaviour
 
         if (loadedDialogue.dialogue != null)
         {
-            _dialogueText.text = loadedDialogue.dialogue;
+
+            StartCoroutine(TypeSentence(sentence));
         }
 
         if (loadedDialogue.art != null)
         {
-            image.sprite = loadedDialogue.art;
+            image = loadedDialogue.art[imageInt];
         }
 
         if (loadedDialogue.voiceLine != null)
         {
             sound.PlayOneShot(loadedDialogue.voiceLine);
         }
+
+
     }
+
+
+    IEnumerator TypeSentence (string sentence)
+    {
+
+
+
+        foreach (char letter in sentence.ToCharArray())
+        {
+
+
+            if (_dialogueText.text != thisSentence)
+            {
+
+
+
+                if (imageInt == loadedDialogue.art.Length - 1)
+                {
+                    imageInt = 0;
+                }
+                else
+                {
+                    imageInt++;
+                }
+
+                image = loadedDialogue.art[imageInt];
+
+
+
+            }
+
+
+            _dialogueText.text += letter;
+            yield return new WaitForSeconds(0.05f);
+
+        }
+
+
+            
+    }
+
 }

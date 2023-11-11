@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
-  m_Name: TestLineB
+  m_Name: TeachingBlake
   m_EditorClassIdentifier: 
-  nameSpace: David
-  dialogue: This is a 2nd test
+  nameSpace: Ben
+  dialogue: I LOVED the Marvels movie videogam
   voiceLine: {fileID: 0}
   art:
   - {fileID: 21300000, guid: 04baa28b5b39f4d4db2bb957e3079b1c, type: 3}
@@ -21,4 +21,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 21510642c70c0394dac080eea9c90c63, type: 3}
   - {fileID: 21300000, guid: 21510642c70c0394dac080eea9c90c63, type: 3}
   - {fileID: 21300000, guid: 04baa28b5b39f4d4db2bb957e3079b1c, type: 3}
-  nextDialogue: {fileID: 11400000, guid: 264e14035a27cae4eb2d98ae7cff1efc, type: 2}
+  nextDialogue: {fileID: 0}
