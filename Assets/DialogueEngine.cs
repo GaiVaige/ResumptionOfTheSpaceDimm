@@ -22,46 +22,21 @@ public class DialogueEngine : MonoBehaviour
 
     void Start()
     {
-        _dialogueText.text = "";
-        sentences = new Queue<string>();
-        sentence = loadedDialogue.dialogue.ToString();
-        sentences.Enqueue(sentence);
-
-
-        imageInt = 0;
-
-        if (loadedDialogue.nextDialogue != null)
-        {
-            nextDialogue = loadedDialogue.nextDialogue;
-        }
 
 
 
-        if (loadedDialogue.nameSpace != null)
-        {
-            _namespace.text = loadedDialogue.nameSpace;
-        }
 
-        if (loadedDialogue.dialogue != null)
-        {
-            StartCoroutine(TypeSentence(sentence));
-        }
-
-        if (loadedDialogue.art != null)
-        {
-            image = loadedDialogue.art[imageInt];
-        }
-
-        if (loadedDialogue.voiceLine != null)
-        {
-            sound.PlayOneShot(loadedDialogue.voiceLine);
-        }
+        
 
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
+
+
 
         if ((Input.GetKeyDown(KeyCode.Space) && nextDialogue != null))
         {
@@ -158,4 +133,43 @@ public class DialogueEngine : MonoBehaviour
             
     }
 
+    public void LoadNewDialogue()
+    {
+        if (loadedDialogue != null)
+        {
+            _dialogueText.text = "";
+            sentences = new Queue<string>();
+            sentence = loadedDialogue.dialogue.ToString();
+            sentences.Enqueue(sentence);
+
+            imageInt = 0;
+
+            if (loadedDialogue.nextDialogue != null)
+            {
+                nextDialogue = loadedDialogue.nextDialogue;
+            }
+
+
+
+            if (loadedDialogue.nameSpace != null)
+            {
+                _namespace.text = loadedDialogue.nameSpace;
+            }
+
+            if (loadedDialogue.dialogue != null)
+            {
+                StartCoroutine(TypeSentence(sentence));
+            }
+
+            if (loadedDialogue.art != null)
+            {
+                image = loadedDialogue.art[imageInt];
+            }
+
+            if (loadedDialogue.voiceLine != null)
+            {
+                sound.PlayOneShot(loadedDialogue.voiceLine);
+            }
+        }
+    }
 }

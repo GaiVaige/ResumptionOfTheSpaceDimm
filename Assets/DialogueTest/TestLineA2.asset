@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
-  m_Name: TestLineA
+  m_Name: TestLineA2
   m_EditorClassIdentifier: 
   nameSpace: David
   dialogue: Hello this is a testHello this is a testHello this is a testHello this
@@ -23,5 +23,5 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 21510642c70c0394dac080eea9c90c63, type: 3}
   - {fileID: 21300000, guid: 04baa28b5b39f4d4db2bb957e3079b1c, type: 3}
   nextDialogue: {fileID: 11400000, guid: 0f56ac6da85a9f447a2beb4c947109b1, type: 2}
-  itemToAdd: {fileID: 813841671700479208, guid: df0fc400c8aff414780cf0abf5a69ea6,
+  itemToAdd: {fileID: 813841671700479208, guid: cb9abd7353a00534d8e42e30b61fbf84,
     type: 3}

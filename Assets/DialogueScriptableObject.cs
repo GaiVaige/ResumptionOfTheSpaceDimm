@@ -11,4 +11,5 @@ public class DialogueScriptableObject : ScriptableObject
     public AudioClip voiceLine;
     public Sprite[] art;
     public DialogueScriptableObject nextDialogue;
+    public PlayerItem itemToAdd;
 }

@@ -21,15 +21,21 @@ public class PlayerController : MonoBehaviour
     public float lookXLimit;
 
     public GameObject playerCam;
+    public Camera pc;
     DialogueEngine de;
+    PlayerInventory npc;
+    bool isInDialogue;
     
     void Start()
     {
         cc = GetComponent<CharacterController>();
         playerCam = GetComponentInChildren<Camera>().gameObject;
+        npc = GetComponent<PlayerInventory>();
+        pc = playerCam.GetComponent<Camera>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         de = FindObjectOfType<DialogueEngine>();
+        de.gameObject.SetActive(false);
        
     }
 
@@ -44,6 +50,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            isInDialogue = false;
             canMove = true;
         }
 
@@ -55,13 +62,20 @@ public class PlayerController : MonoBehaviour
         {
             DoMovement();
             DoRotation();
+
+
+
         }
 
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && !isInDialogue)
         {
             CheckForItem();
         }
+
+
+
+
 
 
     }
@@ -101,13 +115,41 @@ public class PlayerController : MonoBehaviour
 
         RaycastHit hit;
 
+
         Physics.Raycast(playerCam.transform.position, playerCam.transform.forward, out hit, checkDistance, LayerMask.GetMask("Interactable"));
 
-        if(hit.collider.gameObject.GetComponent<DialogueScriptableObject>() != null)
+
+        if (hit.collider != null)
         {
-            de.loadedDialogue = hit.collider.gameObject.GetComponent<DialogueScriptableObject>();
-            de.gameObject.SetActive(true);
+
+            Debug.DrawRay(playerCam.transform.position, playerCam.transform.forward * 100f, Color.red);
+
+
+            if (hit.collider.gameObject.GetComponent<ScriptableObjectContainer>())
+            {
+                hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().counter++;
+
+                de.gameObject.SetActive(true);
+                de.loadedDialogue = hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso;
+                if(hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso.itemToAdd != null)
+                {
+                    if(npc.playerItems.Contains(hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso.itemToAdd.gameObject) == false)
+                    {
+                        npc.playerItems.Add(hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso.itemToAdd.gameObject);
+                    }
+
+                }
+                de.LoadNewDialogue();
+                isInDialogue = true;
+
+            }
+            else
+            {
+                Debug.Log("Help");
+            }
         }
+
+
 
     }
 }
