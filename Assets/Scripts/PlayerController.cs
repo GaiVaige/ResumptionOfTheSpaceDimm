@@ -197,6 +197,10 @@ public class PlayerController : MonoBehaviour
             {
                 hit.collider.gameObject.GetComponent<DoorCheck>().OpenDoor();
             }
+            else if (hit.collider.gameObject.GetComponent<KeypadPuzzle>())
+            {
+                hit.collider.gameObject.GetComponent<KeypadPuzzle>().ActivatePanel();
+            }
             else
             {
                 Debug.Log("Help");
