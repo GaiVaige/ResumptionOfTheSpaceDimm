@@ -14,7 +14,10 @@ public class DialogueEngine : MonoBehaviour
     public TextMeshProUGUI _dialogueText;
     public Sprite image;
     public int imageInt;
+    UIManager uim;
 
+
+    public AudioSource dialogueAudioEngine;
 
     private Queue<string> sentences;
     string sentence;
@@ -22,7 +25,7 @@ public class DialogueEngine : MonoBehaviour
     void Start()
     {
 
-
+        uim = FindObjectOfType<UIManager>();
 
 
         
@@ -86,7 +89,8 @@ public class DialogueEngine : MonoBehaviour
 
         if(loadedDialogue.sc != null)
         {
-            loadedDialogue.sc.PlayOneShotToAudioSource();
+            dialogueAudioEngine.clip = loadedDialogue.sc;
+            dialogueAudioEngine.Play();
         }
 
 
@@ -102,7 +106,6 @@ public class DialogueEngine : MonoBehaviour
 
         foreach (char letter in sentence.ToCharArray())
         {
-
 
             if (_dialogueText.text != thisSentence)
             {
@@ -169,7 +172,8 @@ public class DialogueEngine : MonoBehaviour
 
             if (loadedDialogue.sc != null)
             {
-                loadedDialogue.sc.PlayOneShotToAudioSource();
+                dialogueAudioEngine.clip = loadedDialogue.sc;
+                dialogueAudioEngine.Play();
             }
 
 

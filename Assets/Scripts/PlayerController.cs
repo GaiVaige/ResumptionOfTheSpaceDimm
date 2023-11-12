@@ -29,12 +29,12 @@ public class PlayerController : MonoBehaviour
     public Camera pc;
     DialogueEngine de;
     PlayerInventory npc;
-    bool isInDialogue;
+    public bool isInDialogue;
 
     public SoundManager sm;
-    public SoundClip walking;
-    public SoundClip running;
-    public SoundClip itemPickup;
+    public AudioSource walking;
+    public AudioSource running;
+    public AudioSource itemPickup;
 
     
     void Start()
@@ -112,18 +112,13 @@ public class PlayerController : MonoBehaviour
 
         if((horizontalInput != 0 || verticalInput != 0) && canMove)
         {
-            if (!sm.aus.isPlaying)
-            {
-                //walking.PlayLooping();
-            }
-
-            if(sm.aus.isPlaying && sm.aus.clip != walking)
-            {
-
-                //walking.PlayLooping();
-            }
+            walking.enabled = true;
         }
-
+        else
+        {
+            walking.enabled = false;
+        }
+       
     }
 
     public void DoMovement()
@@ -186,9 +181,9 @@ public class PlayerController : MonoBehaviour
 
                 de.gameObject.SetActive(true);
                 de.loadedDialogue = hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso;
-                if(hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso.itemToAdd != null)
+                if (hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso.itemToAdd != null)
                 {
-                    if(npc.playerItems.Contains(hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso.itemToAdd.gameObject) == false)
+                    if (npc.playerItems.Contains(hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso.itemToAdd.gameObject) == false)
                     {
                         npc.playerItems.Add(hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso.itemToAdd.gameObject);
                     }
@@ -197,6 +192,10 @@ public class PlayerController : MonoBehaviour
                 de.LoadNewDialogue();
                 isInDialogue = true;
 
+            }
+            else if (hit.collider.gameObject.GetComponent<DoorCheck>())
+            {
+                hit.collider.gameObject.GetComponent<DoorCheck>().OpenDoor();
             }
             else
             {
