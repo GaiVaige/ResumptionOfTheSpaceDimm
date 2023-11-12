@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SceneManagement;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class ScriptableObjectContainer : MonoBehaviour
 {
     public DialogueScriptableObject dso;
     public bool noMore;
+    public DialogueScriptableObject dsoToAdd;
+
+
 
     public bool doCounter;
     public int counter;
@@ -14,18 +19,35 @@ public class ScriptableObjectContainer : MonoBehaviour
     public void Update()
     {
 
-        if (doCounter)
+        if(dso != dsoToAdd)
         {
-            if (counter >= max)
+            if (doCounter)
             {
-                noMore = true;
-            }
+                if (counter >= max)
+                {
+                    noMore = true;
+                }
 
-            if (noMore)
-            {
-                Destroy(this);
+                if (noMore)
+                {
+
+                    if (dsoToAdd != null)
+                    {
+
+                        dso = dsoToAdd;
+                    }
+                    else
+                    {
+
+                        Destroy(this);
+                    }
+
+                }
             }
         }
+
+
+
 
     }
 }

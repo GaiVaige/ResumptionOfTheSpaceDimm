@@ -49,6 +49,8 @@ public class NPCManager : MonoBehaviour
 
                     pitem.dialogueShown = true;
                     pitem.hasItem = true;
+
+
                 }
             }
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "Dialogue", menuName = "ScriptableObjects/SpawnManagerScriptableObject", order = 1)]
+[CreateAssetMenu(fileName = "Dialogue", menuName = "ScriptableObjects/DialogueManagerScriptableObject", order = 1)]
 public class DialogueScriptableObject : ScriptableObject
 {
     public string nameSpace;
