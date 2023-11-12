@@ -16,6 +16,11 @@ public class PlayerController : MonoBehaviour
     public bool canMove;
     public float checkDistance;
 
+    public float sprintRate;
+    float currentSprintRate;
+    public bool isSprinting;
+
+
     float rotationX;
     public float lookSpeed;
     public float lookXLimit;
@@ -25,6 +30,10 @@ public class PlayerController : MonoBehaviour
     DialogueEngine de;
     PlayerInventory npc;
     bool isInDialogue;
+
+
+
+    public SoundManager sm;
     
     void Start()
     {
@@ -32,6 +41,7 @@ public class PlayerController : MonoBehaviour
         playerCam = GetComponentInChildren<Camera>().gameObject;
         npc = GetComponent<PlayerInventory>();
         pc = playerCam.GetComponent<Camera>();
+        sm = FindObjectOfType<SoundManager>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         de = FindObjectOfType<DialogueEngine>();
@@ -84,6 +94,18 @@ public class PlayerController : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
+
+
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            isSprinting = true;
+        }
+        else
+        {
+            isSprinting = false;
+        }
+
     }
 
     public void DoMovement()
@@ -96,7 +118,22 @@ public class PlayerController : MonoBehaviour
 
         moveDirection = (forward * totalMoveSpeedV) + (right * totalMoveSpeedH);
         moveDirection.y -= 9.8f;
-        cc.Move(moveDirection * Time.deltaTime);
+
+
+        if (isSprinting)
+        {
+            currentSprintRate = sprintRate;
+        }
+        else
+        {
+            currentSprintRate = 1;
+        }
+
+
+
+
+
+        cc.Move(moveDirection * currentSprintRate * Time.deltaTime);
     }
 
     public void DoRotation()

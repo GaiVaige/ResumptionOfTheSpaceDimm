@@ -8,7 +8,6 @@ public class DialogueScriptableObject : ScriptableObject
 {
     public string nameSpace;
     public string dialogue;
-    public AudioClip voiceLine;
     public Sprite[] art;
     public DialogueScriptableObject nextDialogue;
     public PlayerItem itemToAdd;

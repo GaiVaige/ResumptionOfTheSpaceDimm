@@ -14,8 +14,7 @@ public class DialogueEngine : MonoBehaviour
     public TextMeshProUGUI _dialogueText;
     public Sprite image;
     public int imageInt;
-    public AudioSource sound;
-    public AudioClip dialogueSound;
+
 
     private Queue<string> sentences;
     string sentence;
@@ -85,10 +84,7 @@ public class DialogueEngine : MonoBehaviour
             image = loadedDialogue.art[imageInt];
         }
 
-        if (loadedDialogue.voiceLine != null)
-        {
-            sound.PlayOneShot(loadedDialogue.voiceLine);
-        }
+
 
 
     }
@@ -166,10 +162,7 @@ public class DialogueEngine : MonoBehaviour
                 image = loadedDialogue.art[imageInt];
             }
 
-            if (loadedDialogue.voiceLine != null)
-            {
-                sound.PlayOneShot(loadedDialogue.voiceLine);
-            }
+
         }
     }
 }
