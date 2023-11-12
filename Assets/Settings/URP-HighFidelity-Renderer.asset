@@ -111,12 +111,7 @@ MonoBehaviour:
   m_Name: Outline
   m_EditorClassIdentifier: 
   m_Active: 1
-<<<<<<< HEAD
-  passMaterial: {fileID: -876546973899608171, guid: b3683e5cbedceeb4db0e929f3f01771c,
-    type: 3}
-=======
   passMaterial: {fileID: 2100000, guid: 0b14191b4b37f914daa38f0938fcaf7d, type: 2}
->>>>>>> origin/PhoenixBranch
   injectionPoint: 600
   requirements: 6
   passIndex: 1
