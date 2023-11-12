@@ -111,7 +111,8 @@ MonoBehaviour:
   m_Name: Outline
   m_EditorClassIdentifier: 
   m_Active: 1
-  passMaterial: {fileID: 2100000, guid: 78a08787ca30045abb69f6f7dd878e09, type: 2}
+  passMaterial: {fileID: -876546973899608171, guid: b3683e5cbedceeb4db0e929f3f01771c,
+    type: 3}
   injectionPoint: 600
   requirements: 4
   passIndex: 0
@@ -128,7 +129,7 @@ MonoBehaviour:
   m_Name: Dither
   m_EditorClassIdentifier: 
   m_Active: 1
-  passMaterial: {fileID: 2100000, guid: 78a08787ca30045abb69f6f7dd878e09, type: 2}
+  passMaterial: {fileID: 2100000, guid: 66cf7d1b972960340a87fa2ae0ff10c0, type: 2}
   injectionPoint: 600
   requirements: 4
   passIndex: 0
