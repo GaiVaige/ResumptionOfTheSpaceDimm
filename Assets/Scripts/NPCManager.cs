@@ -30,25 +30,30 @@ public class NPCManager : MonoBehaviour
                     if (this.gameObject.GetComponent<ScriptableObjectContainer>())
                     {
                         Destroy(this.gameObject.GetComponent<ScriptableObjectContainer>());
-
-                        
+                        Debug.Log("Itemdestroyed");
                     }
 
-                    if (!this.gameObject.GetComponent<ScriptableObjectContainer>() && !pitem.dialogueShown)
+                    Debug.Log("nextcheck");
+
+
+                    if (!pitem.dialogueUpdated)
                     {
                         System.Type type = pitem.soc.GetType();
                         Component copy = this.gameObject.AddComponent(type);
 
                         System.Reflection.FieldInfo[] fields = type.GetFields();
-
+                        Debug.Log("I am copying");
                         foreach (System.Reflection.FieldInfo field in fields)
                         {
                             field.SetValue(copy, field.GetValue(pitem.soc));
                         }
+
+                        pitem.hasItem = true;
+                        pitem.dialogueUpdated = true;
                     }
 
-                    pitem.dialogueShown = true;
-                    pitem.hasItem = true;
+
+
 
 
                 }
@@ -64,7 +69,7 @@ public class NPCManager : MonoBehaviour
 public class ItemData
 {
     public bool hasItem;
-    public bool dialogueShown;
+    public bool dialogueUpdated;
     public PlayerItem itemToCheckFor;
     public ScriptableObjectContainer soc;
 
