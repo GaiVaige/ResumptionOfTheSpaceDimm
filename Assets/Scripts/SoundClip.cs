@@ -4,15 +4,32 @@ using UnityEngine;
 
 public class SoundClip : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public SoundManager sm;
+    [SerializeField] private AudioClip thisSound;
+
+    public bool playLooping;
+
     void Start()
     {
-        
+        sm = FindObjectOfType<SoundManager>();
+
+
+
+
+
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void PlayOneShotToAudioSource()
     {
-        
+        sm.PlaySound(thisSound);
+    }
+
+    public void PlayLooping()
+    {
+
+            sm.aus.loop = true;
+            sm.PlaySound(thisSound);
+
     }
 }

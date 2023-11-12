@@ -8,7 +8,7 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
 
-    AudioSource aus;
+    public AudioSource aus;
 
 
     // Start is called before the first frame update
@@ -17,7 +17,10 @@ public class SoundManager : MonoBehaviour
         aus = GetComponent<AudioSource>();
     }
 
-
+    public void PlaySound(AudioClip clip)
+    {
+        aus.PlayOneShot(clip);
+    }
 
 
 }

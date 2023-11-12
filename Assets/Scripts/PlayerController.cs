@@ -31,9 +31,11 @@ public class PlayerController : MonoBehaviour
     PlayerInventory npc;
     bool isInDialogue;
 
-
-
     public SoundManager sm;
+    public SoundClip walking;
+    public SoundClip running;
+    public SoundClip itemPickup;
+
     
     void Start()
     {
@@ -106,6 +108,22 @@ public class PlayerController : MonoBehaviour
             isSprinting = false;
         }
 
+
+
+        if((horizontalInput != 0 || verticalInput != 0) && canMove)
+        {
+            if (!sm.aus.isPlaying)
+            {
+                //walking.PlayLooping();
+            }
+
+            if(sm.aus.isPlaying && sm.aus.clip != walking)
+            {
+
+                //walking.PlayLooping();
+            }
+        }
+
     }
 
     public void DoMovement()
@@ -132,8 +150,8 @@ public class PlayerController : MonoBehaviour
 
 
 
-
         cc.Move(moveDirection * currentSprintRate * Time.deltaTime);
+
     }
 
     public void DoRotation()

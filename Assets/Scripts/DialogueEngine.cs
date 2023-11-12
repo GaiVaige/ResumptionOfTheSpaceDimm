@@ -84,6 +84,11 @@ public class DialogueEngine : MonoBehaviour
             image = loadedDialogue.art[imageInt];
         }
 
+        if(loadedDialogue.sc != null)
+        {
+            loadedDialogue.sc.PlayOneShotToAudioSource();
+        }
+
 
 
 
@@ -160,6 +165,11 @@ public class DialogueEngine : MonoBehaviour
             if (loadedDialogue.art != null)
             {
                 image = loadedDialogue.art[imageInt];
+            }
+
+            if (loadedDialogue.sc != null)
+            {
+                loadedDialogue.sc.PlayOneShotToAudioSource();
             }
 
 
