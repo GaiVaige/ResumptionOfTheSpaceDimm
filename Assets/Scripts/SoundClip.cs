@@ -7,6 +7,10 @@ using UnityEngine.Audio;
 [RequireComponent(typeof(AudioSource))]
 public class SoundClip : MonoBehaviour
 {
+    [Header("Make sure to drag in the Master channel from the audio mixer if")]
+    [Header("you didn't use the prefab for a soundclip.")]
+    [Header("Otherwise volume control will NOT work.")]
+    
 
     public AudioSource aus;
     public UIManager uim;
@@ -18,7 +22,6 @@ public class SoundClip : MonoBehaviour
     {
         uim = FindObjectOfType<UIManager>();
         aus = GetComponent<AudioSource>();
-
 
         if (!playConstant)
         {

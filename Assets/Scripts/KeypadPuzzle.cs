@@ -9,7 +9,6 @@ public class KeypadPuzzle : MonoBehaviour
     public GameObject kpui;
     public GameObject canvasParent;
     string codeTextValue;
-    public string safeCode;
     public TextMeshProUGUI codeText;
     public PlayerController pc;
     public AudioSource beepSound;
@@ -23,6 +22,13 @@ public class KeypadPuzzle : MonoBehaviour
     public string stringDig;
 
     public bool panelIsOpen;
+
+
+    [Header("Things to touch")]
+    [Tooltip("Literally the ontly thing to edit, this sets the correct answer. It is always 4 digits.")]
+    public string safeCode;
+
+
 
     public void Start()
     {

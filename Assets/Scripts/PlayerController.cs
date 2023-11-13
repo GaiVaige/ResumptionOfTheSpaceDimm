@@ -7,6 +7,8 @@ using UnityEngine.EventSystems;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
+
+    [Header("Movement Settings")]
     float horizontalInput;
     float verticalInput;
     public float moveSpeed;
@@ -14,23 +16,29 @@ public class PlayerController : MonoBehaviour
     Vector3 mousePosition;
     CharacterController cc;
     public bool canMove;
-    public float checkDistance;
-
     public float sprintRate;
     float currentSprintRate;
     public bool isSprinting;
 
-
+    [Header("Camera Speed Settings")]
     float rotationX;
     public float lookSpeed;
     public float lookXLimit;
 
+    [Header("Raycast Settings")]
+    public float checkDistance;
+
+    [Header("Dialogue State")]
+    public bool isInDialogue;
+
+
+    [Header("Object References")]
     public GameObject playerCam;
     public Camera pc;
     DialogueEngine de;
     PlayerInventory npc;
-    public bool isInDialogue;
 
+    [Header("Sound References")]
     public SoundManager sm;
     public AudioSource walking;
     public AudioSource running;

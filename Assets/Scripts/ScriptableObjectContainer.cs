@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class ScriptableObjectContainer : MonoBehaviour
 {
+
+
+    [Tooltip("Set what dialogue to load when the character raycast returns this object, as a DialogueScriptableObject (RightClick in Assets Section > ScriptableObject)")]
     public DialogueScriptableObject dso;
-    public bool noMore;
+
+    [Tooltip("Set a DialogueScriptableObject to replace the current one when dialogue is exhausted.")]
     public DialogueScriptableObject dsoToAdd;
 
+    [Tooltip("Do not bother to set this true, it will auto delete.")]
+    public bool noMore;
 
-
+    [Tooltip("This increments whenver a player sees dialogue, set it to one to delete it after the first time, and so on. Ensure you check doCounter to have this logic run.")]
     public bool doCounter;
     public int counter;
     public int max;
-
-
-    public void Start()
-    {
-    }
 
 
     public void Update()
@@ -32,24 +33,25 @@ public class ScriptableObjectContainer : MonoBehaviour
                     noMore = true;
                 }
 
-                if (noMore)
-                {
 
-                    if (dsoToAdd != null)
-                    {
-
-                        dso = dsoToAdd;
-                    }
-                    else
-                    {
-
-                        Destroy(this);
-                    }
-
-                }
             }
         }
 
+        if (noMore)
+        {
+
+            if (dsoToAdd != null)
+            {
+
+                dso = dsoToAdd;
+            }
+            else
+            {
+
+                Destroy(this);
+            }
+
+        }
 
 
 

@@ -8,6 +8,9 @@ public class NPCManager : MonoBehaviour
     PlayerInventory pi;
     public int currentCapacity;
 
+
+
+    [Tooltip("Here you can set what items to check for, drag and drop the prefab you would give the player into the slot. Every time the player gets an item, all NPCs in the scene will check.")]
     public ItemData[] items;
 
 
