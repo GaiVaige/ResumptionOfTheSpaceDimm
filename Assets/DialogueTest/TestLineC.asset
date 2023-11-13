@@ -21,6 +21,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 21510642c70c0394dac080eea9c90c63, type: 3}
   - {fileID: 21300000, guid: 21510642c70c0394dac080eea9c90c63, type: 3}
   nextDialogue: {fileID: 0}
+  dialogueChoice: []
+  dialogueChoicePreview: Dildos
+  dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}
-  goNextHour: 1
+  goNextHour: 0

@@ -15,6 +15,11 @@ public class DialogueScriptableObject : ScriptableObject
     public string dialogue;
     public Sprite[] art;
     public DialogueScriptableObject nextDialogue;
+
+    [Tooltip("DO NOT MAKE THIS GREATER THAN 3 IT WILL CRASH.")]
+    public List<DialogueScriptableObject> dialogueChoice;
+    public string dialogueChoicePreview;
+    public DialogueScriptableObject dsoToAddOveride;
     public PlayerItem itemToAdd;
     public AudioClip sc;
 

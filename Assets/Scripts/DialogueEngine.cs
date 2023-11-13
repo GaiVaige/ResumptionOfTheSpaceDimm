@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
-using UnityEditor.Rendering.Universal;
+using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +10,12 @@ public class DialogueEngine : MonoBehaviour
 {
     public DialogueScriptableObject loadedDialogue;
     public DialogueScriptableObject nextDialogue;
+    public List<DialogueScriptableObject> choiceDialogues;
+    public GameObject choiceUI;
+    public List<Button> buttons;
+    public GameObject cui;
     public string thisSentence;
+    public Transform canvasParent;
     public TextMeshProUGUI _namespace;
     public TextMeshProUGUI _dialogueText;
     public Sprite image;
@@ -29,9 +35,13 @@ public class DialogueEngine : MonoBehaviour
     private Queue<string> sentences;
     string sentence;
 
+    public int choiceStep;
+    public bool waitingForResponse;
+    public bool generatedButtons;
+
     void Start()
     {
-
+        choiceStep = 0;
         uim = FindObjectOfType<UIManager>();
         nextHour = nextHours[0];
         goNextHour = false;
@@ -48,11 +58,21 @@ public class DialogueEngine : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if(loadedDialogue.dialogueChoice.Count != 0)
+        {
+            waitingForResponse = true;
+        }
+        else
+        {
+            waitingForResponse = false;
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Space) && !waitingForResponse && loadedDialogue.dialogueChoice.Count == 0)
         {
             if (nextDialogue != null)
             {
-                LoadNextDialogue();
+                LoadNextDialogue(nextDialogue);
             }
             else if (dialogueFinished)
             {
@@ -82,16 +102,19 @@ public class DialogueEngine : MonoBehaviour
 
     }
 
-    public void LoadNextDialogue()
+    public void LoadNextDialogue(DialogueScriptableObject dso)
     {
+        dialogueFinished = false;
+        generatedButtons = false;
         _dialogueText.text = "";
-        
         imageInt = 0;
-        loadedDialogue = nextDialogue;
+        loadedDialogue = dso;
+        choiceDialogues = loadedDialogue.dialogueChoice;
         sentences.Dequeue();
         StopAllCoroutines();
         sentence = loadedDialogue.dialogue.ToString();
         sentences.Enqueue(sentence);
+
 
 
         if (loadedDialogue.nextDialogue != null)
@@ -124,8 +147,6 @@ public class DialogueEngine : MonoBehaviour
             dialogueAudioEngine.clip = loadedDialogue.sc;
             dialogueAudioEngine.Play();
         }
-
-
 
 
     }
@@ -166,6 +187,7 @@ public class DialogueEngine : MonoBehaviour
         }
 
         dialogueFinished = true;
+        GenerateChoices();
         Debug.Log(dialogueFinished);
 
             
@@ -177,8 +199,9 @@ public class DialogueEngine : MonoBehaviour
         {
             _dialogueText.text = "";
             sentences = new Queue<string>();
-            sentence = loadedDialogue.dialogue.ToString();
+            sentence = loadedDialogue.dialogue.ToString() + "...";
             sentences.Enqueue(sentence);
+
 
             imageInt = 0;
 
@@ -212,6 +235,8 @@ public class DialogueEngine : MonoBehaviour
 
 
         }
+
+
     }
 
 
@@ -230,6 +255,80 @@ public class DialogueEngine : MonoBehaviour
         {
             nextHour = nextHours[0];
         }
+
+
+    }
+
+    public void MakeChoice(DialogueScriptableObject dso)
+    {
+        LoadNextDialogue(dso);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
+        Destroy(cui);
+    }
+
+    public void GenerateChoices()
+    {
+
+        if (dialogueFinished && waitingForResponse && !generatedButtons)
+        {
+
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
+            choiceDialogues = loadedDialogue.dialogueChoice;
+            choiceUI.SetActive(true);
+            waitingForResponse = true;
+
+
+            cui = Instantiate(choiceUI, canvasParent);
+            buttons = cui.GetComponentsInChildren<Button>().ToList();
+
+
+
+
+            foreach (Button button in buttons)
+            {
+
+
+                if (choiceStep == choiceDialogues.Count)
+                {
+                    Destroy(button.gameObject);
+                    buttons.Remove(button);
+
+                    if(buttons.Count > choiceDialogues.Count)
+                    {
+                        Destroy(buttons[choiceStep].gameObject);
+                        buttons.Remove(buttons[choiceStep]);
+                    }
+
+
+                    break;
+
+
+
+                }
+
+                Debug.Log(buttons.Count);
+
+
+                DialogueScriptableObject discrio = choiceDialogues[choiceStep];
+                button.onClick.AddListener(() => MakeChoice(discrio));
+                Check(choiceDialogues[choiceStep]);
+                button.GetComponentInChildren<TextMeshProUGUI>().text = choiceDialogues[choiceStep].dialogueChoicePreview;
+                choiceStep++;
+            }
+            generatedButtons = true;
+
+        }
+        choiceStep = 0;
+    }
+
+
+    public void Check(DialogueScriptableObject dso)
+    {
+        Debug.Log(dso);
 
 
     }

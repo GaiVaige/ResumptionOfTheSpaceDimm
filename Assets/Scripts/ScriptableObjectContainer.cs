@@ -39,11 +39,17 @@ public class ScriptableObjectContainer : MonoBehaviour
 
         if (noMore)
         {
+            if (dso.dsoToAddOveride != null)
+            {
+                dsoToAdd = dso.dsoToAddOveride;
+            }
 
             if (dsoToAdd != null)
             {
 
                 dso = dsoToAdd;
+
+
             }
             else
             {
