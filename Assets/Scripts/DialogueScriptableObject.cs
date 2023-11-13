@@ -12,4 +12,7 @@ public class DialogueScriptableObject : ScriptableObject
     public DialogueScriptableObject nextDialogue;
     public PlayerItem itemToAdd;
     public AudioClip sc;
+
+    public bool goNextHour;
+
 }

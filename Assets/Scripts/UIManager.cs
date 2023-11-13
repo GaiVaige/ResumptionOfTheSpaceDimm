@@ -10,9 +10,9 @@ public class UIManager : MonoBehaviour
     public GameObject pauseUI;
 
 
-    void Start()
+    void Awake()
     {
-
+        pauseUI = GameObject.Find("PauseUI");
         pauseUI.SetActive(false);
         pc = FindObjectOfType<PlayerController>();
         paused = false;

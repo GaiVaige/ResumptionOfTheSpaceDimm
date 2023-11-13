@@ -14,7 +14,7 @@ public class SoundClip : MonoBehaviour
 
 
 
-    public void Start()
+    public void Awake()
     {
         uim = FindObjectOfType<UIManager>();
         aus = GetComponent<AudioSource>();

@@ -15,7 +15,14 @@ public class DialogueEngine : MonoBehaviour
     public Sprite image;
     public int imageInt;
     UIManager uim;
+    public bool dialogueFinished;
+    public GameObject player;
+    public Transform respawn;
 
+    public bool goNextHour;
+    public GameObject currentHour;
+    public GameObject nextHour;
+    public List<GameObject> nextHours;
 
     public AudioSource dialogueAudioEngine;
 
@@ -26,8 +33,8 @@ public class DialogueEngine : MonoBehaviour
     {
 
         uim = FindObjectOfType<UIManager>();
-
-
+        nextHour = nextHours[0];
+        goNextHour = false;
         
 
     }
@@ -35,19 +42,44 @@ public class DialogueEngine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-
-
-
-        if ((Input.GetKeyDown(KeyCode.Space) && nextDialogue != null))
+        if (loadedDialogue.goNextHour)
         {
-            LoadNextDialogue();
+            goNextHour = true;
         }
-        else if ((Input.GetKeyDown(KeyCode.Space) && nextDialogue == null))
+
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            this.gameObject.SetActive(false);
+            if (nextDialogue != null)
+            {
+                LoadNextDialogue();
+            }
+            else if (dialogueFinished)
+            {
+                Debug.Log("I am in the first check");
+                if (goNextHour)
+                {
+                    Debug.Log("I am in the function");
+                    LoadNextHour();
+
+                    goNextHour = false;
+                    this.gameObject.SetActive(false);
+                }
+            }
+            else if (nextDialogue == null)
+            {
+                this.gameObject.SetActive(false);
+            }
+
         }
+
+
+
+
+
+
+
+
     }
 
     public void LoadNextDialogue()
@@ -133,6 +165,8 @@ public class DialogueEngine : MonoBehaviour
 
         }
 
+        dialogueFinished = true;
+        Debug.Log(dialogueFinished);
 
             
     }
@@ -178,5 +212,25 @@ public class DialogueEngine : MonoBehaviour
 
 
         }
+    }
+
+
+    public void LoadNextHour()
+    {
+
+
+        player.transform.position = respawn.position;
+
+        GameObject nextHourDestroy = Instantiate(nextHour);
+        nextHours.Remove(nextHour);
+        Destroy(currentHour);
+        currentHour = nextHourDestroy;
+
+        if(nextHours.Count != 0)
+        {
+            nextHour = nextHours[0];
+        }
+
+
     }
 }

@@ -14,6 +14,12 @@ public class ScriptableObjectContainer : MonoBehaviour
     public int counter;
     public int max;
 
+
+    public void Start()
+    {
+    }
+
+
     public void Update()
     {
 
