@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
     public bool paused;
 
     public GameObject pauseUI;
+    public AudioSource clickSound;
 
 
     void Awake()
@@ -41,6 +42,7 @@ public class UIManager : MonoBehaviour
 
 
         }
+
     }
 
 
@@ -48,11 +50,13 @@ public class UIManager : MonoBehaviour
     public void PauseGame()
     {
         paused = true;
+        clickSound.enabled = true;
         Time.timeScale = 0;
         pc.enabled = false;
 
 
         pauseUI.SetActive(true);
+
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -61,22 +65,26 @@ public class UIManager : MonoBehaviour
 
     public void ResumeGame()
     {
-        paused = false;
+
         Time.timeScale = 1;
         pc.enabled = true;
         pauseUI.SetActive(false);
+        clickSound.enabled = true;
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        paused = false;
     }
 
     public void QuitGame()
     {
+        clickSound.enabled = true;
         Debug.Log("quit");
     }
 
     public void QuitToMenu()
     {
+        clickSound.enabled = true;
         Debug.Log("back to menu");
     }
 

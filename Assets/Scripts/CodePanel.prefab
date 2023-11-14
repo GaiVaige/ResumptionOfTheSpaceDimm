@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7136092518440825525}
   - component: {fileID: 6961444958558058698}
+  - component: {fileID: 7964823391417422327}
   m_Layer: 0
   m_Name: PanelScript
   m_TagString: Untagged
@@ -45,12 +46,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kpui: {fileID: 0}
-  safeCode: 1234
+  canvasParent: {fileID: 0}
   codeText: {fileID: 0}
   pc: {fileID: 0}
   beepSound: {fileID: 0}
   correctSound: {fileID: 0}
+  buttons: []
+  digitToAdd: 0
+  stringDig: 
   panelIsOpen: 0
+  safeCode: 1234
+  spawnItem: 0
+  itemToSpawn: {fileID: 0}
+  positonToSpawn: {fileID: 0}
+  open: 0
+  anim: {fileID: 7964823391417422327}
+--- !u!95 &7964823391417422327
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2406163240982587615}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 99840f4d0bacba7479cca2cc3d2da61b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4173695282582955863
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,7 +107,7 @@ Transform:
   m_GameObject: {fileID: 4173695282582955863}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9.48}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

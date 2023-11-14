@@ -13,7 +13,7 @@ public class KeypadPuzzle : MonoBehaviour
     public PlayerController pc;
     public AudioSource beepSound;
     public AudioSource correctSound;
-    Animator anim;
+
     GameObject panel;
     public Button[] buttons;
 
@@ -27,6 +27,23 @@ public class KeypadPuzzle : MonoBehaviour
     [Header("Things to touch")]
     [Tooltip("Literally the ontly thing to edit, this sets the correct answer. It is always 4 digits.")]
     public string safeCode;
+
+
+
+    [Header("Settings for puzzle completion")]
+    [Header("If you want an item to spawn")]
+    public bool spawnItem;
+    public GameObject itemToSpawn;
+    public Transform positonToSpawn;
+
+    [Header("If you want a safe to open")]
+    public bool open;
+    public Animator anim;
+
+
+    [Header("Click if you want to delete the collider for the keypad")]
+    public bool destroyKeypadEntirely;
+
 
 
 
@@ -56,15 +73,37 @@ public class KeypadPuzzle : MonoBehaviour
             Debug.Log(codeTextValue);
             if (codeTextValue == safeCode)
             {
-                //correctSound.enabled = true;
-                //anim.SetTrigger("Open");
+                correctSound.enabled = true;
+
+                if (spawnItem)
+                {
+                    Instantiate(itemToSpawn, positonToSpawn);
+                }
+
+                if (open)
+                {
+
+                   anim.SetTrigger("Open");
+                }
+
+
+
                 pc.enabled = true;
                 UnityEngine.Cursor.lockState = CursorLockMode.Locked;
                 UnityEngine.Cursor.visible = false;
                 codeTextValue = "";
                 Destroy(panel);
-                Destroy(this);
                 panelIsOpen = false;
+
+
+                if (destroyKeypadEntirely)
+                {
+                    Destroy(this.gameObject.transform.parent.gameObject);
+                }
+                else
+                {
+                    Destroy(this);
+                }
             }
 
 
@@ -124,6 +163,8 @@ public class KeypadPuzzle : MonoBehaviour
 
     public void ClosePanel()
     {
+        beepSound.enabled = false;
+        beepSound.enabled = true;
         Destroy(panel);
 
         panelIsOpen = false;
@@ -140,6 +181,8 @@ public class KeypadPuzzle : MonoBehaviour
 
     public void AddDigit(string digit)
     {
+        beepSound.enabled = false;
+        beepSound.enabled = true;
         codeTextValue += digit;
         Debug.Log(digit);
     }
