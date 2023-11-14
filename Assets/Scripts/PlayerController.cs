@@ -62,17 +62,24 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-        if (de.isActiveAndEnabled)
+        if(de != null)
         {
-            canMove = false;
+            if (de.isActiveAndEnabled)
+            {
+                canMove = false;
+            }
+            else
+            {
+                isInDialogue = false;
+                canMove = true;
+            }
+
         }
         else
         {
-            isInDialogue = false;
             canMove = true;
         }
+
 
 
         GetInput();
@@ -100,7 +107,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-        public void GetInput()
+    public void GetInput()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
@@ -116,16 +123,19 @@ public class PlayerController : MonoBehaviour
             isSprinting = false;
         }
 
-
-
-        if((horizontalInput != 0 || verticalInput != 0) && canMove)
+        if(sm != null)
         {
-            walking.enabled = true;
+
+            if ((horizontalInput != 0 || verticalInput != 0) && canMove)
+            {
+                walking.enabled = true;
+            }
+            else
+            {
+                walking.enabled = false;
+            }
         }
-        else
-        {
-            walking.enabled = false;
-        }
+
        
     }
 
