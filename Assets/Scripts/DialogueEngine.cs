@@ -28,9 +28,6 @@ public class DialogueEngine : MonoBehaviour
     public Transform respawn;
 
     public bool goNextHour;
-    public GameObject currentHour;
-    public GameObject nextHour;
-    public List<GameObject> nextHours;
 
     public AudioSource dialogueAudioEngine;
 
@@ -45,7 +42,6 @@ public class DialogueEngine : MonoBehaviour
     {
         choiceStep = 0;
         uim = FindObjectOfType<UIManager>();
-        nextHour = nextHours[0];
         goNextHour = false;
         imageOverride.SetActive(false);
 
@@ -91,8 +87,6 @@ public class DialogueEngine : MonoBehaviour
                     Debug.Log("I am in the function");
                     LoadNextHour();
 
-                    goNextHour = false;
-                    this.gameObject.SetActive(false);
                 }
 
                 if (nextDialogue == null)
@@ -126,7 +120,7 @@ public class DialogueEngine : MonoBehaviour
         choiceDialogues = loadedDialogue.dialogueChoice;
         sentences.Dequeue();
         StopAllCoroutines();
-        sentence = loadedDialogue.dialogue.ToString();
+        sentence = loadedDialogue.dialogue.ToString() + "...";
         sentences.Enqueue(sentence);
 
 
@@ -274,19 +268,10 @@ public class DialogueEngine : MonoBehaviour
 
     public void LoadNextHour()
     {
-
-
-        player.transform.position = respawn.position;
-
-        GameObject nextHourDestroy = Instantiate(nextHour);
-        nextHours.Remove(nextHour);
-        Destroy(currentHour);
-        currentHour = nextHourDestroy;
-
-        if(nextHours.Count != 0)
-        {
-            nextHour = nextHours[0];
-        }
+        PlayerController pc = FindObjectOfType<PlayerController>();
+        pc.canProgressToNextHour = true;
+        goNextHour = false;
+        
 
 
     }

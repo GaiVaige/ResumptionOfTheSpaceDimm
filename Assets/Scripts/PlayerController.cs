@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     float currentSprintRate;
     public bool isSprinting;
 
+    public bool canProgressToNextHour;
+
     [Header("Camera Speed Settings")]
     float rotationX;
     public float lookSpeed;
@@ -217,20 +219,30 @@ public class PlayerController : MonoBehaviour
             }
             else if (hit.collider.gameObject.GetComponent<DoorCheck>())
             {
-                if (npc.playerItems.Contains(hit.collider.gameObject.GetComponent<DoorCheck>().piToHave.gameObject))
+
+                if(hit.collider.gameObject.GetComponent<DoorCheck>().piToHave != null)
                 {
-                    hit.collider.gameObject.GetComponent<DoorCheck>().OpenDoor();
+                    if (npc.playerItems.Contains(hit.collider.gameObject.GetComponent<DoorCheck>().piToHave.gameObject))
+                    {
+                        hit.collider.gameObject.GetComponent<DoorCheck>().OpenDoor();
+                    }
+                    else
+                    {
+                        hit.collider.gameObject.GetComponent<DoorCheck>().DoorLock();
+                        de.loadedDialogue = hit.collider.gameObject.GetComponent<DoorCheck>().doorLockedText;
+                        de.gameObject.SetActive(true);
+                        de.LoadNewDialogue();
+                        isInDialogue = true;
+
+
+                    }
                 }
                 else
                 {
-                    hit.collider.gameObject.GetComponent<DoorCheck>().DoorLock();
-                    de.loadedDialogue = hit.collider.gameObject.GetComponent<DoorCheck>().doorLockedText;
-                    de.gameObject.SetActive(true);
-                    de.LoadNewDialogue();
-                    isInDialogue = true;
-
-
+                    hit.collider.gameObject.GetComponent<DoorCheck>().OpenDoor();
                 }
+
+
 
 
 

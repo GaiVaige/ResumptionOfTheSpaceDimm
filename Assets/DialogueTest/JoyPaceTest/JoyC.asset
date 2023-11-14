@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
+  m_Name: JoyC
+  m_EditorClassIdentifier: 
+  nameSpace: Joy
+  dialogue: It just isn't right. I swear, if he has something to do with this situation
+  art:
+  - {fileID: 21300000, guid: fcdc29f55ef9a334e90d118d9a0a83c8, type: 3}
+  - {fileID: 21300000, guid: fcdc29f55ef9a334e90d118d9a0a83c8, type: 3}
+  - {fileID: 21300000, guid: fcdc29f55ef9a334e90d118d9a0a83c8, type: 3}
+  - {fileID: 21300000, guid: 0425916541eebfe449ce11f2ea225f18, type: 3}
+  - {fileID: 21300000, guid: 0425916541eebfe449ce11f2ea225f18, type: 3}
+  - {fileID: 21300000, guid: 0425916541eebfe449ce11f2ea225f18, type: 3}
+  nextDialogue: {fileID: 11400000, guid: 0064198eef8c6864e82c2a01fafc6213, type: 2}
+  dialogueChoice: []
+  dialogueChoicePreview: 
+  dsoToAddOveride: {fileID: 0}
+  itemToAdd: {fileID: 0}
+  sc: {fileID: 0}
+  goNextHour: 0
