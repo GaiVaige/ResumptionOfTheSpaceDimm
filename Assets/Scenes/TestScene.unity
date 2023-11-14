@@ -778,6 +778,7 @@ MonoBehaviour:
   _namespace: {fileID: 1246707097}
   _dialogueText: {fileID: 804940665}
   image: {fileID: 0}
+  imageOverride: {fileID: 1713436234}
   imageInt: 0
   dialogueFinished: 0
   player: {fileID: 1335348923}
@@ -1523,6 +1524,23 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 641399539497907343, guid: 47fc0bff14f694a45866c66e362cce31,
+        type: 3}
+      propertyPath: piToHave
+      value: 
+      objectReference: {fileID: 813841671700479208, guid: df0fc400c8aff414780cf0abf5a69ea6,
+        type: 3}
+    - target: {fileID: 641399539497907343, guid: 47fc0bff14f694a45866c66e362cce31,
+        type: 3}
+      propertyPath: doorLockedText
+      value: 
+      objectReference: {fileID: 11400000, guid: 51adf40e4016cc945a16f753583b196a,
+        type: 2}
+    - target: {fileID: 641399539497907343, guid: 47fc0bff14f694a45866c66e362cce31,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 94246323}
     - target: {fileID: 3723265484358171619, guid: 47fc0bff14f694a45866c66e362cce31,
         type: 3}
       propertyPath: m_LocalPosition.x

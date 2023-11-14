@@ -195,6 +195,10 @@ public class PlayerController : MonoBehaviour
                     {
                         npc.playerItems.Add(hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso.itemToAdd.gameObject);
                     }
+                    else
+                    {
+                        Debug.Log("I already have this item");
+                    }
 
                 }
                 de.LoadNewDialogue();
@@ -203,7 +207,23 @@ public class PlayerController : MonoBehaviour
             }
             else if (hit.collider.gameObject.GetComponent<DoorCheck>())
             {
-                hit.collider.gameObject.GetComponent<DoorCheck>().OpenDoor();
+                if (npc.playerItems.Contains(hit.collider.gameObject.GetComponent<DoorCheck>().piToHave.gameObject))
+                {
+                    hit.collider.gameObject.GetComponent<DoorCheck>().OpenDoor();
+                }
+                else
+                {
+                    hit.collider.gameObject.GetComponent<DoorCheck>().DoorLock();
+                    de.loadedDialogue = hit.collider.gameObject.GetComponent<DoorCheck>().doorLockedText;
+                    de.gameObject.SetActive(true);
+                    de.LoadNewDialogue();
+                    isInDialogue = true;
+
+
+                }
+
+
+
             }
             else if (hit.collider.gameObject.GetComponent<KeypadPuzzle>())
             {

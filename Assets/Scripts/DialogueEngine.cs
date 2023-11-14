@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,6 +20,7 @@ public class DialogueEngine : MonoBehaviour
     public TextMeshProUGUI _namespace;
     public TextMeshProUGUI _dialogueText;
     public Sprite image;
+    public GameObject imageOverride;
     public int imageInt;
     UIManager uim;
     public bool dialogueFinished;
@@ -45,17 +47,36 @@ public class DialogueEngine : MonoBehaviour
         uim = FindObjectOfType<UIManager>();
         nextHour = nextHours[0];
         goNextHour = false;
-        
+
+
+    }
+
+    private void Awake()
+    {
 
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if (loadedDialogue.art.Length == 0)
+        {
+            imageOverride.SetActive(false);
+        }
+        else
+        {
+            imageOverride.SetActive(true);
+        }
+
+
         if (loadedDialogue.goNextHour)
         {
             goNextHour = true;
         }
+
+
+
 
 
         if(loadedDialogue.dialogueChoice.Count != 0)
@@ -83,6 +104,11 @@ public class DialogueEngine : MonoBehaviour
                     LoadNextHour();
 
                     goNextHour = false;
+                    this.gameObject.SetActive(false);
+                }
+
+                if (nextDialogue == null)
+                {
                     this.gameObject.SetActive(false);
                 }
             }
@@ -137,9 +163,13 @@ public class DialogueEngine : MonoBehaviour
             StartCoroutine(TypeSentence(sentence));
         }
 
-        if (loadedDialogue.art != null)
+        if (loadedDialogue.art.Length != 0)
         {
             image = loadedDialogue.art[imageInt];
+        }
+        else
+        {
+            image = null;
         }
 
         if(loadedDialogue.sc != null)
@@ -163,18 +193,21 @@ public class DialogueEngine : MonoBehaviour
             if (_dialogueText.text != thisSentence)
             {
 
-
-
-                if (imageInt == loadedDialogue.art.Length - 1)
+                if(loadedDialogue.art.Length != 0)
                 {
-                    imageInt = 0;
-                }
-                else
-                {
-                    imageInt++;
+                    if (imageInt == loadedDialogue.art.Length - 1)
+                    {
+                        imageInt = 0;
+                    }
+                    else
+                    {
+                        imageInt++;
+                    }
+
+                    image = loadedDialogue.art[imageInt];
                 }
 
-                image = loadedDialogue.art[imageInt];
+
 
 
 
@@ -222,9 +255,13 @@ public class DialogueEngine : MonoBehaviour
                 StartCoroutine(TypeSentence(sentence));
             }
 
-            if (loadedDialogue.art != null)
+            if (loadedDialogue.art.Length != 0)
             {
                 image = loadedDialogue.art[imageInt];
+            }
+            else
+            {
+                image = null;
             }
 
             if (loadedDialogue.sc != null)

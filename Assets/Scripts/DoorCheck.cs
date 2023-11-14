@@ -8,6 +8,9 @@ public class DoorCheck : MonoBehaviour
 {
 
     public Animator anim;
+    public PlayerItem piToHave;
+    public AudioSource doorLockedSound;
+    public DialogueScriptableObject doorLockedText;
 
 
     // Start is called before the first frame update
@@ -25,5 +28,12 @@ public class DoorCheck : MonoBehaviour
     public void OpenDoor()
     {
         anim.SetTrigger("OpenDoor");
+    }
+
+    public void DoorLock()
+    {
+        doorLockedSound.enabled = false;
+        doorLockedSound.enabled = true;
+
     }
 }
