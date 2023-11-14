@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -79,13 +80,13 @@ public class UIManager : MonoBehaviour
     public void QuitGame()
     {
         clickSound.enabled = true;
-        Debug.Log("quit");
+        Application.Quit();
     }
 
     public void QuitToMenu()
     {
         clickSound.enabled = true;
-        Debug.Log("back to menu");
+        SceneManager.LoadScene("TitleScreen");
     }
 
 

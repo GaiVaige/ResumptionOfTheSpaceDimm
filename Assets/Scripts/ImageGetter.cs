@@ -13,6 +13,7 @@ public class ImageGetter : MonoBehaviour
     {
         de = GetComponentInParent<DialogueEngine>();
         thisArt = GetComponent<Image>();
+        thisArt.sprite = de.image;
     }
 
     // Update is called once per frame

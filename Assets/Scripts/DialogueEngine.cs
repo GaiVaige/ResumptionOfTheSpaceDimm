@@ -47,12 +47,7 @@ public class DialogueEngine : MonoBehaviour
         uim = FindObjectOfType<UIManager>();
         nextHour = nextHours[0];
         goNextHour = false;
-
-
-    }
-
-    private void Awake()
-    {
+        imageOverride.SetActive(false);
 
     }
 
@@ -60,14 +55,7 @@ public class DialogueEngine : MonoBehaviour
     void Update()
     {
 
-        if (loadedDialogue.art.Length == 0)
-        {
-            imageOverride.SetActive(false);
-        }
-        else
-        {
-            imageOverride.SetActive(true);
-        }
+
 
 
         if (loadedDialogue.goNextHour)
@@ -165,14 +153,16 @@ public class DialogueEngine : MonoBehaviour
 
         if (loadedDialogue.art.Length != 0)
         {
+
             image = loadedDialogue.art[imageInt];
+            imageOverride.SetActive(true);
         }
         else
         {
-            image = null;
+            imageOverride.SetActive(false);
         }
 
-        if(loadedDialogue.sc != null)
+        if (loadedDialogue.sc != null)
         {
             dialogueAudioEngine.clip = loadedDialogue.sc;
             dialogueAudioEngine.Play();
@@ -228,6 +218,8 @@ public class DialogueEngine : MonoBehaviour
 
     public void LoadNewDialogue()
     {
+
+
         if (loadedDialogue != null)
         {
             _dialogueText.text = "";
@@ -257,12 +249,15 @@ public class DialogueEngine : MonoBehaviour
 
             if (loadedDialogue.art.Length != 0)
             {
+
                 image = loadedDialogue.art[imageInt];
+                imageOverride.SetActive(true);
             }
             else
             {
-                image = null;
+                imageOverride.SetActive(false);
             }
+
 
             if (loadedDialogue.sc != null)
             {

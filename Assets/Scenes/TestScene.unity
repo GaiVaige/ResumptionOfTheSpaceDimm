@@ -3523,7 +3523,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1928687469706041688}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: QuitToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
