@@ -120,7 +120,7 @@ public class DialogueEngine : MonoBehaviour
         choiceDialogues = loadedDialogue.dialogueChoice;
         sentences.Dequeue();
         StopAllCoroutines();
-        sentence = loadedDialogue.dialogue.ToString() + "...";
+        sentence = loadedDialogue.dialogue.ToString();
         sentences.Enqueue(sentence);
 
 
@@ -218,7 +218,7 @@ public class DialogueEngine : MonoBehaviour
         {
             _dialogueText.text = "";
             sentences = new Queue<string>();
-            sentence = loadedDialogue.dialogue.ToString() + "...";
+            sentence = loadedDialogue.dialogue.ToString();
             sentences.Enqueue(sentence);
 
 

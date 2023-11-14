@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
+  m_Name: Maria2a
+  m_EditorClassIdentifier: 
+  nameSpace: Maria
+  dialogue: Right... so he didn't mention anything about the makeshift barricades
+    he threw together locking us into this part of the ship?
+  art: []
+  nextDialogue: {fileID: 11400000, guid: fd9ccde5f5580324cbf8cfb1ed7f24a4, type: 2}
+  dialogueChoice: []
+  dialogueChoicePreview: You might be infected...
+  dsoToAddOveride: {fileID: 0}
+  itemToAdd: {fileID: 0}
+  sc: {fileID: 0}
+  goNextHour: 0
