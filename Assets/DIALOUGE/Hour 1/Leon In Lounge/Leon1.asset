@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
+  m_Name: Leon1
+  m_EditorClassIdentifier: 
+  nameSpace: Leon
+  dialogue: Dude? Dude?? DUDE!! I swear I'm the only one freaking out about this
+    situation! The rest of the crew is missing. And SAM is in the escape pod saying
+    we might be infected?
+  art: []
+  nextDialogue: {fileID: 11400000, guid: 5ab4c0a38e9d8b14e864f4f97ea22ab8, type: 2}
+  dialogueChoice: []
+  dialogueChoicePreview: 
+  dsoToAddOveride: {fileID: 0}
+  itemToAdd: {fileID: 7307118495988087337, guid: 6bd1e15b99e45b643b374cda0fac4569,
+    type: 3}
+  sc: {fileID: 0}
+  goNextHour: 0

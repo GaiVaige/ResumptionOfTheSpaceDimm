@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
+  m_Name: Alex4
+  m_EditorClassIdentifier: 
+  nameSpace: Alex
+  dialogue: I shouldn't say this, but I will just because it's you. Last night I
+    heard him mumbling in his room... something about a plan? I wrote it down in
+    my journal. Keep him at arms length I always says.
+  art: []
+  nextDialogue: {fileID: 11400000, guid: 5122941e809047843b1afa17b95a15ed, type: 2}
+  dialogueChoice: []
+  dialogueChoicePreview: 
+  dsoToAddOveride: {fileID: 0}
+  itemToAdd: {fileID: 0}
+  sc: {fileID: 0}
+  goNextHour: 0

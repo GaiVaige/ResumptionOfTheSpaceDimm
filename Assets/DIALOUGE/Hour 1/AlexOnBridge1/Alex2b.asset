@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
+  m_Name: Alex2b
+  m_EditorClassIdentifier: 
+  nameSpace: Alex
+  dialogue: 'The situation is absurd. I''ll talk with the others soon. I need some
+    time to figure out the shutters. Actually can you find my journal for me? I think
+    it''s in my room somewhere. '
+  art: []
+  nextDialogue: {fileID: 0}
+  dialogueChoice: []
+  dialogueChoicePreview: ' I can''t say...'
+  dsoToAddOveride: {fileID: 0}
+  itemToAdd: {fileID: 0}
+  sc: {fileID: 0}
+  goNextHour: 0
