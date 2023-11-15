@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
-  m_Name: SamsonLine1
+  m_Name: Leon3
   m_EditorClassIdentifier: 
-  nameSpace: Samson [Over Comms]
-  dialogue: ASH! You're up. Come over to the escape pod IMMEDIATELY!
+  nameSpace: Leon
+  dialogue: You were there? Don't you remember?
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
-  itemToAdd: {fileID: 7872115336967436402, guid: 8c0e7811def6b064cbf3379d5edbee3d,
-    type: 3}
+  itemToAdd: {fileID: 0}
   sc: {fileID: 0}
   goNextHour: 0
