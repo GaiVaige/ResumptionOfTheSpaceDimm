@@ -201,18 +201,6 @@ public class PlayerController : MonoBehaviour
 
                 de.gameObject.SetActive(true);
                 de.loadedDialogue = hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso;
-                if (hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso.itemToAdd != null)
-                {
-                    if (npc.playerItems.Contains(hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso.itemToAdd.gameObject) == false)
-                    {
-                        npc.playerItems.Add(hit.collider.gameObject.GetComponent<ScriptableObjectContainer>().dso.itemToAdd.gameObject);
-                    }
-                    else
-                    {
-                        Debug.Log("I already have this item");
-                    }
-
-                }
                 de.LoadNewDialogue();
                 isInDialogue = true;
 

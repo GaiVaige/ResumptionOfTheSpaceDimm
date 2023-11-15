@@ -26,6 +26,7 @@ public class DialogueEngine : MonoBehaviour
     public bool dialogueFinished;
     public GameObject player;
     public Transform respawn;
+    bool hasntAddedItem = true;
 
     public bool goNextHour;
 
@@ -112,6 +113,7 @@ public class DialogueEngine : MonoBehaviour
 
     public void LoadNextDialogue(DialogueScriptableObject dso)
     {
+        hasntAddedItem = true;
         dialogueFinished = false;
         generatedButtons = false;
         _dialogueText.text = "";
@@ -127,6 +129,12 @@ public class DialogueEngine : MonoBehaviour
         if(loadedDialogue.goNextHour == true)
         {
             FindAnyObjectByType<PlayerController>().canProgressToNextHour = true;
+        }
+
+
+        if (loadedDialogue.itemToAdd != null)
+        {
+            AddItem();
         }
 
 
@@ -221,6 +229,8 @@ public class DialogueEngine : MonoBehaviour
 
         if (loadedDialogue != null)
         {
+
+            hasntAddedItem = true;
             _dialogueText.text = "";
             sentences = new Queue<string>();
             sentence = loadedDialogue.dialogue.ToString();
@@ -228,6 +238,16 @@ public class DialogueEngine : MonoBehaviour
 
 
             imageInt = 0;
+
+            if(loadedDialogue.itemToAdd != null)
+            {
+                AddItem();
+            }
+
+            if (loadedDialogue.goNextHour == true)
+            {
+                FindAnyObjectByType<PlayerController>().canProgressToNextHour = true;
+            }
 
             if (loadedDialogue.nextDialogue != null)
             {
@@ -351,6 +371,16 @@ public class DialogueEngine : MonoBehaviour
     public void Check(DialogueScriptableObject dso)
     {
         Debug.Log(dso);
+
+
+    }
+
+
+    public void AddItem()
+    {
+        GameObject.FindObjectOfType<PlayerInventory>().playerItems.Add(loadedDialogue.itemToAdd.gameObject);
+        hasntAddedItem = false;
+
 
 
     }
