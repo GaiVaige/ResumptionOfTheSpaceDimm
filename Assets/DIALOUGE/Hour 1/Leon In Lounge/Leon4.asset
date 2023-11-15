@@ -16,10 +16,10 @@ MonoBehaviour:
   dialogue: Holy shit. For a second there I forgot about what's happening. Whatever.
     It's space beer time. Save me space beer! You're my only hope!
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: ed201f53c16d73a4f84870d826b2fd61, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
-  dsoToAddOveride: {fileID: 11400000, guid: ed201f53c16d73a4f84870d826b2fd61, type: 2}
+  dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}
   goNextHour: 0

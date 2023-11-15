@@ -124,6 +124,11 @@ public class DialogueEngine : MonoBehaviour
         sentences.Enqueue(sentence);
 
 
+        if(loadedDialogue.goNextHour == true)
+        {
+            FindAnyObjectByType<PlayerController>().canProgressToNextHour = true;
+        }
+
 
         if (loadedDialogue.nextDialogue != null)
         {

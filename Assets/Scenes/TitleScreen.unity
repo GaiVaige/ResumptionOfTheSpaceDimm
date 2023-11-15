@@ -1492,7 +1492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aus: {fileID: 24100000, guid: 2896c11854b9b694d801477bbe9d3be8, type: 2}
-  gameSceneName: TestScene
+  gameSceneName: Hour1
 --- !u!1 &1471188575
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,17 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
-  m_Name: Leon3
+  m_Name: Dialogue3
   m_EditorClassIdentifier: 
-  nameSpace: Leon
-  dialogue: Aw, bro you're the best. Space beer. It's just better, ya know? I mean
-    you don't know because... ya know... you can't drink them. You're missing out!
+  nameSpace: Samson
+  dialogue: 'Hey. ASH. Red button. '
   art: []
-  nextDialogue: {fileID: 11400000, guid: 756b0b8bdce1b4b4bb0c6ad604dca567, type: 2}
+  nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
-  itemToAdd: {fileID: 8470005682052226150, guid: e53f4870586cee64587057259cde2489,
-    type: 3}
+  itemToAdd: {fileID: 0}
   sc: {fileID: 0}
   goNextHour: 0

@@ -27,7 +27,7 @@ public class NPCManager : MonoBehaviour
         {
             foreach(ItemData pitem in items)
             {
-                if (pi.playerItems.Contains(pitem.itemToCheckFor.gameObject))
+                if (pi.playerItems.Contains(pitem.itemToCheckFor.gameObject) && pi.playerItems[pi.playerItems.Count - 1] == pitem.itemToCheckFor.gameObject)
                 {
 
                     if (this.gameObject.GetComponent<ScriptableObjectContainer>())
