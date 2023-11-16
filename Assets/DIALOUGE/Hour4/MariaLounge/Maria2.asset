@@ -17,7 +17,9 @@ MonoBehaviour:
     explosion should eradicate the virus. It's the best we can do.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: add45b7611643094dbca6dcd93e342ae, type: 2}
+  - {fileID: 11400000, guid: 24bbcb23ddd83484c83907a626f161c2, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

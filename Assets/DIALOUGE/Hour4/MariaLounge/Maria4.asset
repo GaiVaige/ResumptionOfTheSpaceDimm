@@ -18,8 +18,9 @@ MonoBehaviour:
     loved you. I hope you understand that.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoice:
+  - {fileID: 11400000, guid: 5fa6cd837723f7c45841f1422c973e67, type: 2}
+  dialogueChoicePreview: I feel nothing.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

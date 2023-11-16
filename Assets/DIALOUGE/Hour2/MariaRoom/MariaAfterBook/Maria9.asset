@@ -18,7 +18,9 @@ MonoBehaviour:
     and other realities. Lives we could have lived. Maybe they are lives we did live.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: 0fa87354cfdd5554b80dda56c9d15b49, type: 2}
+  - {fileID: 11400000, guid: a44c84ce9c7149c428746f0df4cbeca8, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

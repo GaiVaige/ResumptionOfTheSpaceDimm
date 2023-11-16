@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
+  m_Name: Leon2 1
+  m_EditorClassIdentifier: 
+  nameSpace: Leon
+  dialogue: All I can think about is Zonarc. That mission screwed me up. I was never
+    ready for this.
+  art: []
+  nextDialogue: {fileID: 11400000, guid: 68628e0edc9c233469780cd25e0af78b, type: 2}
+  dialogueChoice: []
+  dialogueChoicePreview: Talk to me.
+  dsoToAddOveride: {fileID: 0}
+  itemToAdd: {fileID: 0}
+  sc: {fileID: 0}
+  goNextHour: 0

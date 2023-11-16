@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: 'Anyway, I decided to start re-reading it and it has some heart-aching
     quotes. Like listen to this:'
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 3edd714c12b8a6b4a98eb1fcfc51b97c, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

@@ -17,9 +17,9 @@ MonoBehaviour:
     Yet, the brain persists, a symphony of neurons pulsating rapid bursts, push to
     show you your life one last time.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: fe80edc7107fec8469a15323f99d3c54, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: I want to enjoy my last moments with you.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: This corporeal form, a vessel adrift in an expanse of emptiness, unravels
     the illusion of existence. I was never really here.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: d0845ce18623fa145a77504a4338ba58, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

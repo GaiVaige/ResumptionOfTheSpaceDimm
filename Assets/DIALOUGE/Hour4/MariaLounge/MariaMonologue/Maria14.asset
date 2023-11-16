@@ -17,7 +17,7 @@ MonoBehaviour:
     transcend them. Moments converge, like delicate droplets of paint on the canvas
     of my weary mind.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 1f7c5d056eb50254eba962eb60518247, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

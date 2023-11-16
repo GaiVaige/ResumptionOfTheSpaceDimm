@@ -17,7 +17,8 @@ MonoBehaviour:
     means to actually die.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: 20ac42a7242bd3446b5b4f446a719c10, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

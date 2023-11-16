@@ -16,7 +16,10 @@ MonoBehaviour:
   dialogue: Hey thanks. The music helps.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: 4872f2a2ec26b6344bfd10aaaf0cc88f, type: 2}
+  - {fileID: 11400000, guid: 5e3aab07793a1734aa9e024bcf2c54ee, type: 2}
+  - {fileID: 11400000, guid: 3c414df88a5de4645b026367cda04420, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

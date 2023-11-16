@@ -18,7 +18,8 @@ MonoBehaviour:
     Well, more of us would be dead.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: 9a761943be4f0bb4b9ef26acaa0e6dc1, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

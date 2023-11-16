@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: "Death, once a specter, no longer evokes fear. Instead, I am engulfed
     in the present\u2014a moment where memories cascade like a torrent."
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 764ff69c8f3c8894b9579433b76216b2, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

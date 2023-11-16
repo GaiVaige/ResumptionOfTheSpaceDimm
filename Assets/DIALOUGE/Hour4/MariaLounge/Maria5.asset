@@ -18,8 +18,9 @@ MonoBehaviour:
     to accept the things the way they are. Let the universe guide you.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoice:
+  - {fileID: 11400000, guid: a3add189c5d707641bd2ad99d4423a2a, type: 2}
+  dialogueChoicePreview: What does it all mean?
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

@@ -17,8 +17,9 @@ MonoBehaviour:
     That's the ONLY thought I gave it. I swear.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoice:
+  - {fileID: 11400000, guid: 327d411b89fc7d249b902dcc1324b215, type: 2}
+  dialogueChoicePreview: What were the memories.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

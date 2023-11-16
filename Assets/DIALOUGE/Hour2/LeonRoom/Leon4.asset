@@ -17,9 +17,9 @@ MonoBehaviour:
     some abandoned ship-port in Sector Z. Despite the warning signs I'm sure you
     recall we decided to accept the mission.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: eafe403dcbe173446bf27b7287da7bab, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: Parts of it.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

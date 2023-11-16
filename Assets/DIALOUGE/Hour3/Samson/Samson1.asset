@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Samson1
   m_EditorClassIdentifier: 
   nameSpace: Samson [Over Comms]
-  dialogue: 
+  dialogue: ASH. You better have good news. Get back here now.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []

@@ -17,8 +17,9 @@ MonoBehaviour:
     sting on me!
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoice:
+  - {fileID: 11400000, guid: 90b698c3990e86e4b8258afe7659f643, type: 2}
+  dialogueChoicePreview: Why didn't you tell me sooner?
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

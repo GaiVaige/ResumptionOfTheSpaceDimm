@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: We've had a few missions turn to shit, I don't blame him for the way
     he feels... but he's comfortable talking to you... right sorry I keep forgetting.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: fd180bd5ade229141be8302feaf906a1, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

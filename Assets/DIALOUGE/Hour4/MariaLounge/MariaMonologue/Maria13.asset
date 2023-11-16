@@ -17,7 +17,7 @@ MonoBehaviour:
     of life fades. The concept of origin and conclusion dissolves... pure energy.
     That's what we are.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: d5b5c84e3f140ea4bacfebaeff04ca3a, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

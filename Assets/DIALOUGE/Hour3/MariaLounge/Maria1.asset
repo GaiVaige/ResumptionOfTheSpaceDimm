@@ -17,7 +17,8 @@ MonoBehaviour:
     we might all be sick... how much do you know?
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: 759b4c0e0f4700e47b69347256311c92, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

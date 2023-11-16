@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: Regrets, poignant choices, conversations, and the echoes of love unfold.
     Each atom within me, a celestial creation, whispers allegiance to the stars.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 298cba5f60047a64282c6cdc3ce52d26, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

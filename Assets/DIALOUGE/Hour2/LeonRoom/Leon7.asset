@@ -13,13 +13,12 @@ MonoBehaviour:
   m_Name: Leon7
   m_EditorClassIdentifier: 
   nameSpace: Leon
-  dialogue: LEON  But maybe I could have done something different! Maybe if I had
-    just *cough* *cough*. Sorry. I need to sleep. I think I drank too much space
-    beer.
+  dialogue: But maybe I could have done something different! Maybe if I had just
+    *cough* *cough*. Sorry. I need to sleep. I think I drank too much space beer.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: You did your rest.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

@@ -15,7 +15,7 @@ MonoBehaviour:
   nameSpace: Alex
   dialogue: So LEON... how are they?
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 58fe82ca249c38e42983fa29437fe8c7, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

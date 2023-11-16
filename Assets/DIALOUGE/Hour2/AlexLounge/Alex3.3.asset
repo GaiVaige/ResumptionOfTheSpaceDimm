@@ -16,9 +16,9 @@ MonoBehaviour:
   dialogue: Shit. You're right. It's just pissing me off he's telling you what's
     going on and not us. Is it even a sickness? He's acting so strange.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 43971e310fdebd3469dfbae3a1227e33, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: Calm down.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

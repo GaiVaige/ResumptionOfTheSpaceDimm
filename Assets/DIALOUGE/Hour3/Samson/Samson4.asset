@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Samson4
   m_EditorClassIdentifier: 
   nameSpace: Samson
-  dialogue: SAMSON  Zonarc. The virus. The bio-weapon. It all worked out perfectly
-    *cough* well nearly.
+  dialogue: Zonarc. The virus. The bio-weapon. It all worked out perfectly *cough*
+    well nearly.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoice:
+  - {fileID: 11400000, guid: 37011f6bf0202444f9858eeffc40f43e, type: 2}
+  dialogueChoicePreview: What's funny?
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

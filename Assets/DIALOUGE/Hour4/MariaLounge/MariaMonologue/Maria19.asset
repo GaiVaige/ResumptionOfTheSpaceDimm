@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: Life is a dream, a wish. I embody it all, as will you, and them, intertwined
     in the cosmic dance of existence. Then it starts all over again.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: ab1f47c1631dcd34c87a0c74a5132145, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

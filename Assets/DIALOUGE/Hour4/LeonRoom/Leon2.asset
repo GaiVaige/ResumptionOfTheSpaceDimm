@@ -18,8 +18,8 @@ MonoBehaviour:
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: 
-  dsoToAddOveride: {fileID: 0}
+  dialogueChoicePreview: You did good.
+  dsoToAddOveride: {fileID: 11400000, guid: 929fb11b5790b8348aa0a5b5a211270c, type: 2}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}
   goNextHour: 0

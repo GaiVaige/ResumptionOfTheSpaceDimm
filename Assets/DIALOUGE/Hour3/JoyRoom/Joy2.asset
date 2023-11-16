@@ -15,9 +15,9 @@ MonoBehaviour:
   nameSpace: Joy
   dialogue: 'If it wasn''t for me, they''d be dead. There''s nothing more to say. '
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 0f8797b346f3e474d8ede2df8a4c6b75, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: LEON mentioned Zonarc. Want to clarify?
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

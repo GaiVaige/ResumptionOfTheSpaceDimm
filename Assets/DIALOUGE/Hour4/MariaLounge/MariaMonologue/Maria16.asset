@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: Like a solitary raindrop merging seamlessly with the vast ocean, I become
     part of... everything. A thread woven into the cosmic fabric.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: bb7dae28d13026149a2c3239b44112cb, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

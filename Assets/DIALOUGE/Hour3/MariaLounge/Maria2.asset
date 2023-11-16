@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Maria2
   m_EditorClassIdentifier: 
   nameSpace: Maria
-  dialogue: MARIA  ASH. I'm not sure what you're up to. But I trust you'll do the
-    right thing. Something is up with SAMSON and he's been that way for days now.
+  dialogue: ASH. I'm not sure what you're up to. But I trust you'll do the right
+    thing. Something is up with SAMSON and he's been that way for days now.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: As much as you do.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

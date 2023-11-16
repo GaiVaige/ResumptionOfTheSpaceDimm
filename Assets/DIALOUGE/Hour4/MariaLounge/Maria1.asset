@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: If you have anything you want to say... it might be the last time you
     get to say it. I don't think I'm coming back from this.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: fb94c739ffe240f478cdc9a7bd7e97c4, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

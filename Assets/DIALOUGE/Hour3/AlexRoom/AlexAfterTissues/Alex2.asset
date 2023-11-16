@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: Thanks, ASH. Wish I could help knock this case on its ass but I really
     can't move much anymore.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 4819fd889c3faf143901e19ebe38a3e0, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

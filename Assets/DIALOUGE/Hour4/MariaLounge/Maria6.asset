@@ -15,9 +15,9 @@ MonoBehaviour:
   nameSpace: Maria
   dialogue: 'But you tried. In your little own ASH way, you tried. That matters. '
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 242ce76a44095794c88efa9f784a4075, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: I couldn't save the team.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

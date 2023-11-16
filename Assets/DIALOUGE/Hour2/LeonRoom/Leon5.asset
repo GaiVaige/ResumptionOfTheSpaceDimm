@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: After landing at an off city hanger and walking over an hour, we made
     our way to the drop site and... that's where it all went wrong... so many causalities.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 3e04f07d2c08fdb4e985cd8ad961e7f1, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

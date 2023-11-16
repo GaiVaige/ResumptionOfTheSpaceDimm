@@ -17,9 +17,9 @@ MonoBehaviour:
     The amount of ZDF soilders I killed alone would be enough for life in prison.
     Or death.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 41d2653297d4468469b504c3d23d9507, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: The others are lucky to have you.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

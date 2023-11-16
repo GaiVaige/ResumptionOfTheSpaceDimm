@@ -18,8 +18,8 @@ MonoBehaviour:
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: I still need more time.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}
-  goNextHour: 0
+  goNextHour: 1

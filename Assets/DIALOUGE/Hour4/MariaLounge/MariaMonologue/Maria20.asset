@@ -15,7 +15,7 @@ MonoBehaviour:
   nameSpace: Maria
   dialogue: ................
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 15c191bd5f1f0c540b5508840b5783cd, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

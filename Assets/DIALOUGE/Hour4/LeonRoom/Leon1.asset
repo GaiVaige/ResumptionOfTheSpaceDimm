@@ -16,7 +16,8 @@ MonoBehaviour:
   dialogue: There isn't any cool way to see this but, I think I'm dying man.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: f9616c34dcc5bae40abb6c78779586f3, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

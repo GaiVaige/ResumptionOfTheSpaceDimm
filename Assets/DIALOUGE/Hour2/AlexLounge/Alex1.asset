@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: Sammy is starting to really piss me off. He's been in there for well
     over an hour now.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 20d46fc4564707f4e826d6da50832f59, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

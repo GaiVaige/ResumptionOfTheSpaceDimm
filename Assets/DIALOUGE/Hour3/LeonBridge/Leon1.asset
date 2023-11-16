@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Leon1
   m_EditorClassIdentifier: 
   nameSpace: Leon
-  dialogue: Hey *cough* it's my bro bro, Ash! We we're something, huh? Fighters.
+  dialogue: Hey *cough* it's my bro bro, Ash! We, we're something, huh? Fighters.
     Killers. Licensed contractors. Hard to imagine we would go out like this. I always
     thought we would go down doing the right thing.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: 8cd24f98e64376645b8d71a05865fdb0, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

@@ -17,9 +17,9 @@ MonoBehaviour:
     I don't know why I said that. What if he's sick too? No, no he's not. He can't
     be. Right?
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 43971e310fdebd3469dfbae3a1227e33, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: I can't do that...
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

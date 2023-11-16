@@ -17,9 +17,9 @@ MonoBehaviour:
     us in the dark and locked himself inside the pod! For all we know he's sick!
     God... He can't be though... right?
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 43971e310fdebd3469dfbae3a1227e33, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: Do you have an issue with Sam?
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

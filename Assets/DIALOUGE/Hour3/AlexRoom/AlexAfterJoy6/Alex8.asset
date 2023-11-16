@@ -17,8 +17,11 @@ MonoBehaviour:
     Holy shit... it WAS a sting! We have a rat!
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoice:
+  - {fileID: 11400000, guid: bc02cb9f3c3e0cf44b71504841da9c67, type: 2}
+  - {fileID: 11400000, guid: f7a1205b506ffc242a19d662b46a19cc, type: 2}
+  - {fileID: 11400000, guid: 640596932f9f491479290ea75f7261bc, type: 2}
+  dialogueChoicePreview: Zonarc was a sting?
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

@@ -17,7 +17,7 @@ MonoBehaviour:
     myself, ASH! Happy? Is that what you wanted me to say? I'm here FOR YOU. I joined
     this team FOR YOU.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: d6e0b5e26630c1f4990091f85d2d6227, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

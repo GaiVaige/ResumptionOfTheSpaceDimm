@@ -19,7 +19,7 @@ MonoBehaviour:
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: That's beautiful.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

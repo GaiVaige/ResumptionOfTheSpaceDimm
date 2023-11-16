@@ -15,7 +15,7 @@ MonoBehaviour:
   nameSpace: Maria
   dialogue: I'm returning home, just by remembering.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: b973210f3b591e34aa4edb47233b45d9, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

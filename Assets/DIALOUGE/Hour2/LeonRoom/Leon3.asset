@@ -16,7 +16,9 @@ MonoBehaviour:
   dialogue: You were there? Don't you remember?
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: 551cd577099532641ac0f51d00265732, type: 2}
+  - {fileID: 11400000, guid: 00c549de917ba8e45a8f307a3fbb0b3f, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

@@ -16,8 +16,9 @@ MonoBehaviour:
   dialogue: Heheh... very good. You did excellent work ASH.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoice:
+  - {fileID: 11400000, guid: 923a94a66ba840c47b6d3d2e5eeb14e1, type: 2}
+  dialogueChoicePreview: Everyone is sick.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

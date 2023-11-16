@@ -16,9 +16,9 @@ MonoBehaviour:
   dialogue: But what if it does? What if our dreams were ethereal vessels, transporting
     us through the corridors of time, allowing us to relive fragments of our past?
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 85c77e33d3077544f86374bcb20272de, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: It's a good thing it doesn't exist then.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

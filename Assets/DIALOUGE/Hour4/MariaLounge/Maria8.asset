@@ -15,9 +15,9 @@ MonoBehaviour:
   nameSpace: Maria
   dialogue: What happens when we die... what happens. What. Happens...
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 429127c3da272524b9b964e99793908e, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: What happens when you die?
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

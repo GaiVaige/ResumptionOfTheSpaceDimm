@@ -15,9 +15,9 @@ MonoBehaviour:
   nameSpace: Joy
   dialogue: ' Oh uh... I listen to Beethoven... helps calm me down after our missions. '
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 4f584e18b07900946be2d89dff3cb569, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: What music do you like?
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

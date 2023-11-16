@@ -16,7 +16,8 @@ MonoBehaviour:
   dialogue: '*cough* Ash. '
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: 1f65909610eb8604b812da7c28d612dd, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

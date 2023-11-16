@@ -17,9 +17,9 @@ MonoBehaviour:
     I should have ripped you apart wire by wire while you were offline. *coughing*.
     You didn't even realize you were the virus.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: cb0eb1fa523e39748ab33f62f3edd761, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: No.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

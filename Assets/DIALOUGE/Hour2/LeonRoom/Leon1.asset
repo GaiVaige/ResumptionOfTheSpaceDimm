@@ -17,7 +17,10 @@ MonoBehaviour:
     in this place. We don't even have access to the games room. Agh!
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: c40752b0aa5f79c409e773f1c86cb9c2, type: 2}
+  - {fileID: 11400000, guid: 76d76b5bd7bb1f141923f367f19d13c4, type: 2}
+  - {fileID: 11400000, guid: 746a8cedcec47224ba6c55375cd70086, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

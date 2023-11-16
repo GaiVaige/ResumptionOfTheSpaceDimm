@@ -18,8 +18,10 @@ MonoBehaviour:
     here I am working for you lot. At least I'm paid well.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoice:
+  - {fileID: 11400000, guid: 50860dc16c469164cbe2f555a00554c6, type: 2}
+  - {fileID: 11400000, guid: 93d658bb26f209b46aa1763ddd547840, type: 2}
+  dialogueChoicePreview: You don't talk much with the others.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

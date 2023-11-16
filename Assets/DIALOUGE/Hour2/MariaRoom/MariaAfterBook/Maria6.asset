@@ -17,7 +17,8 @@ MonoBehaviour:
     seems uncertain, highlighting the fragility of happiness."
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: c65c5f841770146498eca6cf5bd32ad4, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

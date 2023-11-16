@@ -17,7 +17,10 @@ MonoBehaviour:
     You need to convince him to unlock the door, you can do that right?
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: 99f14050d79797e4c85b75562767f09d, type: 2}
+  - {fileID: 11400000, guid: 137b395a8140ef349b4d87b258639f51, type: 2}
+  - {fileID: 11400000, guid: e87aeff13b02fed43ae4d902480346e8, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

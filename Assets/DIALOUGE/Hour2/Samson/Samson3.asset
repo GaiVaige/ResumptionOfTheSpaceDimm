@@ -17,8 +17,9 @@ MonoBehaviour:
     say. Now, give me a status report.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoice:
+  - {fileID: 11400000, guid: 0c32715811350f04da6e14c79eb98c7f, type: 2}
+  dialogueChoicePreview: I don't have enough information yet.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

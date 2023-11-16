@@ -15,7 +15,7 @@ MonoBehaviour:
   nameSpace: Maria
   dialogue: Time and death cease to exist.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: afbab91ea2482624d91a2d262b10131e, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

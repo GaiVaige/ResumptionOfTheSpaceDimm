@@ -17,7 +17,8 @@ MonoBehaviour:
     information from me, that is an ORDER.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: 8892451bc8bd13949a279becb0973478, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

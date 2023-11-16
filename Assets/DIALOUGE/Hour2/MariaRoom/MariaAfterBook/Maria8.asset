@@ -17,7 +17,7 @@ MonoBehaviour:
     memories like ancient scrolls, and every nocturnal adventure is a whispered conversation
     with our own history.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: f84df89cdb1a17c4790a1a461329d94a, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

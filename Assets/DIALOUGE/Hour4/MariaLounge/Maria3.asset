@@ -17,8 +17,9 @@ MonoBehaviour:
     think anyone asked you - how do *you* feel?
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoice:
+  - {fileID: 11400000, guid: 3ac796c43bdcfc3408a58551d7454180, type: 2}
+  dialogueChoicePreview: I want to spend my last moments with you.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

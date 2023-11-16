@@ -16,8 +16,9 @@ MonoBehaviour:
   dialogue: 'On accident. '
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoice:
+  - {fileID: 11400000, guid: 745a6b1f0f0bfff4e99b1a03d956d67b, type: 2}
+  dialogueChoicePreview: You're infected too.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

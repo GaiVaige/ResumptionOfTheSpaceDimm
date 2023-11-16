@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: Shutters are closed. I didn't realize. SAM really wanted nothing getting
     in... or nothing getting out
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 49755d746d80c994a9d65ca7e1275394, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

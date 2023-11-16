@@ -18,7 +18,10 @@ MonoBehaviour:
     something different, what would you do?
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: c7410fca086fb0344973cdc137830fb6, type: 2}
+  - {fileID: 11400000, guid: 3651869177583914e999b0884c920ffd, type: 2}
+  - {fileID: 11400000, guid: d234df2cf857c31409ccc7f7d4bfd0c9, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

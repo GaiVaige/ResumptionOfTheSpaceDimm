@@ -17,8 +17,8 @@ MonoBehaviour:
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: 
-  dsoToAddOveride: {fileID: 0}
+  dialogueChoicePreview: It's SAMSON.
+  dsoToAddOveride: {fileID: 11400000, guid: 56b03cf6595509044ae07bd65107bb30, type: 2}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}
   goNextHour: 0

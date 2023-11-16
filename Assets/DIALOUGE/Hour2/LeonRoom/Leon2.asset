@@ -16,9 +16,9 @@ MonoBehaviour:
   dialogue: All I can think about is Zonarc. That mission screwed me up. I was never
     ready for this.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 68628e0edc9c233469780cd25e0af78b, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: Meditate.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

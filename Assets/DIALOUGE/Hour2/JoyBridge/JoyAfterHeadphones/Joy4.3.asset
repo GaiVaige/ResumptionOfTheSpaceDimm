@@ -17,8 +17,9 @@ MonoBehaviour:
     I haven''t noticed you talking to the others.'
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoice:
+  - {fileID: 11400000, guid: 4ecc580a188509a42a08f7bc02934713, type: 2}
+  dialogueChoicePreview: ...
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

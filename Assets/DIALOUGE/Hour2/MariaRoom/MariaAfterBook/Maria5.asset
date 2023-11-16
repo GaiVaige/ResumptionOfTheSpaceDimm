@@ -17,7 +17,7 @@ MonoBehaviour:
     opportunities. The past is a reminder of life''s fleeting nature, painted with
     lost chances.'
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: a5631866da0605f4eb0713ed21d4003e, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
