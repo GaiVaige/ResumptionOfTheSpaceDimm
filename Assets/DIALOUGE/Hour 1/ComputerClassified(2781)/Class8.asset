@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
-  m_Name: Leon6
+  m_Name: Class8
   m_EditorClassIdentifier: 
-  nameSpace: Leon
-  dialogue: I shouldn't say anything, it really isn't my place to say dude. 8194.
-    That's your ticket.
+  nameSpace: 
+  dialogue: Upon reaching the drop site, unforeseen circumstances led to [REDACTED]
+    casualties. The attack transpired [REDACTED]
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 2516a52e8cc324146be1ee08f3cfd601, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

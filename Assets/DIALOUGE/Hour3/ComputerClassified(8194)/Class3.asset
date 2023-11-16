@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
-  m_Name: Leon6
+  m_Name: Class3
   m_EditorClassIdentifier: 
-  nameSpace: Leon
-  dialogue: I shouldn't say anything, it really isn't my place to say dude. 8194.
-    That's your ticket.
+  nameSpace: 
+  dialogue: Project Zephyr aimed to develop a bio-weapon designed to target and compromise
+    [REDACTED] of hosts, specifically focusing on punctering nylon and syntehic polymers.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 9c09d625885b9284e846d746a4bf7070, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}

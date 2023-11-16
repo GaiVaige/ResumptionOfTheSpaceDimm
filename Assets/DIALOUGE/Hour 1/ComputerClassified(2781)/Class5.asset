@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
-  m_Name: Leon6
+  m_Name: Class5
   m_EditorClassIdentifier: 
-  nameSpace: Leon
-  dialogue: I shouldn't say anything, it really isn't my place to say dude. 8194.
-    That's your ticket.
+  nameSpace: 
+  dialogue: 'Mission Execution:'
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 84f6c85abf6429043b13f4b49c28acfa, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
