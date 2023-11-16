@@ -33,8 +33,7 @@ public class KeypadPuzzle : MonoBehaviour
     [Header("Settings for puzzle completion")]
     [Header("If you want an item to spawn")]
     public bool spawnItem;
-    public GameObject itemToSpawn;
-    public Transform positonToSpawn;
+    public PlayerItem itemToSpawn;
 
     [Header("If you want a safe to open")]
     public bool open;
@@ -77,7 +76,7 @@ public class KeypadPuzzle : MonoBehaviour
 
                 if (spawnItem)
                 {
-                    Instantiate(itemToSpawn, positonToSpawn);
+                    pc.gameObject.GetComponent<PlayerInventory>().playerItems.Add(itemToSpawn.gameObject);
                 }
 
                 if (open)
