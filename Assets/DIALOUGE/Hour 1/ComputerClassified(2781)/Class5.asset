@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
   m_Name: Class5
   m_EditorClassIdentifier: 
-  nameSpace: 
+  nameSpace: Operation Vermilion
   dialogue: 'Mission Execution:'
-  art: []
+  art:
+  - {fileID: 21300000, guid: ffd97408138afba4f9d06f7fae4990f8, type: 3}
   nextDialogue: {fileID: 11400000, guid: 84f6c85abf6429043b13f4b49c28acfa, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

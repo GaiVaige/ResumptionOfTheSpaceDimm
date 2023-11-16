@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
   m_Name: Class6
   m_EditorClassIdentifier: 
-  nameSpace: 
+  nameSpace: Operation Vermilion
   dialogue: The team successfully landed at an off-city hanger to maintain a low
     profile. Despite warning signs indicating potential risks, the decision was made
     to proceed by [REDACTED]. After an arduous trek of aprox. an hour, the team reached
     the drop site within the city.
-  art: []
+  art:
+  - {fileID: 21300000, guid: ffd97408138afba4f9d06f7fae4990f8, type: 3}
   nextDialogue: {fileID: 11400000, guid: d86667d59cec31a4abcbbb83cc6d7703, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

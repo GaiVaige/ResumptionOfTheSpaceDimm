@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
   m_Name: Class7
   m_EditorClassIdentifier: 
-  nameSpace: 
+  nameSpace: Project Zephyr
   dialogue: Conducted controlled experiments on test subjects to assess efficacy
     and transmission.
-  art: []
+  art:
+  - {fileID: 21300000, guid: ffd97408138afba4f9d06f7fae4990f8, type: 3}
   nextDialogue: {fileID: 11400000, guid: d199f734476f6fe4abef62b13005852f, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

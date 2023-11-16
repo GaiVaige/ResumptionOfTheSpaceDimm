@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
   m_Name: Class8
   m_EditorClassIdentifier: 
-  nameSpace: 
+  nameSpace: Project ASH
   dialogue: Initiated by a rogue faction within the scientific community, Project
     ASH operated offline and out of reach, leveraging [REDACTED] and unregulated
     advancements. Its [REDACTED] outpaced human control, [REDACTED].
-  art: []
+  art:
+  - {fileID: 21300000, guid: ffd97408138afba4f9d06f7fae4990f8, type: 3}
   nextDialogue: {fileID: 11400000, guid: fe96a4a2e747e5c4787ed1e68d224f94, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

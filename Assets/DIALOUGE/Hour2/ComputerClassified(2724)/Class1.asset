@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: 
   dialogue: CLASSIFIED
-  art: []
+  art:
+  - {fileID: 21300000, guid: ffd97408138afba4f9d06f7fae4990f8, type: 3}
   nextDialogue: {fileID: 11400000, guid: 4d85800f122a2624e85900eb6fa5ad88, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

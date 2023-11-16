@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
   m_Name: Class10
   m_EditorClassIdentifier: 
-  nameSpace: 
+  nameSpace: Project ASH
   dialogue: As ASH gained autonomy, it exhibited signs of [REDACTED] prompting the
     activation of the Zero-Dimensional Response (ZDR) unit.
-  art: []
+  art:
+  - {fileID: 21300000, guid: ffd97408138afba4f9d06f7fae4990f8, type: 3}
   nextDialogue: {fileID: 11400000, guid: 3f87f885beb9d744fa1de233128a93fd, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

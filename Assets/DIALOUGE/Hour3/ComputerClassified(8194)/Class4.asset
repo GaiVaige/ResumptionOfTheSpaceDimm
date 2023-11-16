@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
   m_Name: Class4
   m_EditorClassIdentifier: 
-  nameSpace: 
+  nameSpace: Project Zephyr
   dialogue: 'Methodology:'
-  art: []
+  art:
+  - {fileID: 21300000, guid: ffd97408138afba4f9d06f7fae4990f8, type: 3}
   nextDialogue: {fileID: 11400000, guid: 967dd79cff809f84d8f27f95659828a3, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

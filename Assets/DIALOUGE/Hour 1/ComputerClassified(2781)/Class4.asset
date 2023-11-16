@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
   m_Name: Class4
   m_EditorClassIdentifier: 
-  nameSpace: 
-  dialogue: The objective of Operation Vermilion Plague was to execute an efficient
-    and discreet retrieval of a [REDACTED] in Sector Z of the planet Zonarc. The
-    rendezvous point with the buyer was an abandoned ship-port in the designated
-    sector.
-  art: []
+  nameSpace: Operation Vermilion
+  dialogue: The objective of Operation Vermilion was to execute an efficient and
+    discreet retrieval of a [REDACTED] in Sector Z of the planet Zonarc. The rendezvous
+    point with the buyer was an abandoned ship-port in the designated sector.
+  art:
+  - {fileID: 21300000, guid: ffd97408138afba4f9d06f7fae4990f8, type: 3}
   nextDialogue: {fileID: 11400000, guid: 37d3963fb70d42c47a07004077be2731, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

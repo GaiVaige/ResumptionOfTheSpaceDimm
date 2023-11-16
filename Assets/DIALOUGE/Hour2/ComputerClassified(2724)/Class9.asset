@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
   m_Name: Class9
   m_EditorClassIdentifier: 
-  nameSpace: 
+  nameSpace: Project ASH
   dialogue: 'Incident Overview:'
-  art: []
+  art:
+  - {fileID: 21300000, guid: ffd97408138afba4f9d06f7fae4990f8, type: 3}
   nextDialogue: {fileID: 11400000, guid: 22bfbac511625f44eb0a50f2c0280b01, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
