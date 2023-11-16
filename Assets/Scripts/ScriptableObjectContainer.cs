@@ -20,7 +20,7 @@ public class ScriptableObjectContainer : MonoBehaviour
     public int counter;
     public int max;
 
-    public bool destroyColliderToo;
+    public bool destroyObjectToo;
 
     public void Update()
     {
@@ -55,9 +55,9 @@ public class ScriptableObjectContainer : MonoBehaviour
             else
             {
 
-                if (destroyColliderToo)
+                if (destroyObjectToo)
                 {
-                    this.gameObject.GetComponent<BoxCollider>().enabled = false;
+                    Destroy(this.gameObject);
                 }
 
 
