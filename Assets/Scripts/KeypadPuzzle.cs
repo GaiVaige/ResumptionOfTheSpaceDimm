@@ -97,7 +97,7 @@ public class KeypadPuzzle : MonoBehaviour
 
                 if (destroyKeypadEntirely)
                 {
-                    Destroy(this.gameObject.transform.parent.gameObject);
+                    Destroy(this.gameObject);
                 }
                 else
                 {
