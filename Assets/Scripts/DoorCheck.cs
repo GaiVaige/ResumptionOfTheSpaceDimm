@@ -27,6 +27,7 @@ public class DoorCheck : MonoBehaviour
 
     public void OpenDoor()
     {
+        DoorLock();
         anim.SetTrigger("OpenDoor");
     }
 

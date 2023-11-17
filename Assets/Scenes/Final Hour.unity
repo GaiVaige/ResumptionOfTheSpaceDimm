@@ -1013,7 +1013,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &434470396
 Transform:
   m_ObjectHideFlags: 0
@@ -1210,6 +1210,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 470492957}
+    - targetCorrespondingSourceObject: {fileID: 3093989754205100996, guid: bcebbdf470b50a948add63f468f2a500,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 470492958}
   m_SourcePrefab: {fileID: 100100000, guid: bcebbdf470b50a948add63f468f2a500, type: 3}
 --- !u!4 &470492954 stripped
 Transform:
@@ -1273,6 +1277,26 @@ CapsuleCollider:
   m_Height: 2.4980314
   m_Direction: 1
   m_Center: {x: 0, y: 0.7490157, z: 0}
+--- !u!114 &470492958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470492955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71acc1264886e44d9d2f8a523057583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aus: {fileID: 483848586}
+  dso: {fileID: 11400000, guid: 429127c3da272524b9b964e99793908e, type: 2}
+--- !u!82 &483848586 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5288024595913160765, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+    type: 3}
+  m_PrefabInstance: {fileID: 754545533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &494803146
 GameObject:
   m_ObjectHideFlags: 0
@@ -1717,6 +1741,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7575242169846577815, guid: b9c6c8672b757e446995e52a3dddfa71,
         type: 3}
+      propertyPath: sprintRate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575242169846577815, guid: b9c6c8672b757e446995e52a3dddfa71,
+        type: 3}
       propertyPath: checkDistance
       value: 5
       objectReference: {fileID: 0}
@@ -1771,15 +1800,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 363925780530215536, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+        type: 3}
+      propertyPath: playConstant
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1110451352180797541, guid: 28c1bdf7bba52cc4696d08beb208f66f,
         type: 3}
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
-    - target: {fileID: 1110451352180797541, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+    - target: {fileID: 3041241434426513119, guid: 28c1bdf7bba52cc4696d08beb208f66f,
         type: 3}
-      propertyPath: m_IsActive
+      propertyPath: playConstant
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288024595913160765, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+        type: 3}
+      propertyPath: Loop
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288024595913160765, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288024595913160765, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288024595913160765, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e6f458e2870b5f345b7c09cb3d3c1964, type: 3}
+    - target: {fileID: 7375368088667264146, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375368088667264146, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8047350793917396226, guid: 28c1bdf7bba52cc4696d08beb208f66f,
         type: 3}
@@ -1839,6 +1903,12 @@ PrefabInstance:
 --- !u!82 &754545534 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 5699700120717260712, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+    type: 3}
+  m_PrefabInstance: {fileID: 754545533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &754545535 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1600207483479074630, guid: 28c1bdf7bba52cc4696d08beb208f66f,
     type: 3}
   m_PrefabInstance: {fileID: 754545533}
   m_PrefabAsset: {fileID: 0}
@@ -3408,11 +3478,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 805016425571196199, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 754545535}
+    - target: {fileID: 839788908664533009, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 754545535}
     - target: {fileID: 1282372754253316834, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       propertyPath: doorLockedSound
       value: 
-      objectReference: {fileID: 1789911788}
+      objectReference: {fileID: 754545535}
+    - target: {fileID: 1710383757654852730, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 754545535}
     - target: {fileID: 2247028899146496007, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       propertyPath: piToHave
@@ -3488,6 +3573,11 @@ PrefabInstance:
       propertyPath: correctSound
       value: 
       objectReference: {fileID: 265755860}
+    - target: {fileID: 3338020296110693599, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 754545535}
     - target: {fileID: 3746432592321881780, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       propertyPath: piToHave
@@ -3497,7 +3587,12 @@ PrefabInstance:
         type: 3}
       propertyPath: doorLockedSound
       value: 
-      objectReference: {fileID: 1789911788}
+      objectReference: {fileID: 754545535}
+    - target: {fileID: 4891737688196831749, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 754545535}
     - target: {fileID: 5364111401219802831, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       propertyPath: m_Name
@@ -3514,11 +3609,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: eecd82598b301ab46a5ba39e5803c7ae,
         type: 2}
+    - target: {fileID: 6478512134418817978, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 754545535}
+    - target: {fileID: 7055950181132074055, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 754545535}
     - target: {fileID: 7816055453698573815, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7846764197108878749, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 754545535}
+    - target: {fileID: 8903859741523016045, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 754545535}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 9091866524123060290, guid: 1c77085eef169514c921abc5b52166c6, type: 3}

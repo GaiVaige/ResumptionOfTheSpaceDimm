@@ -1662,11 +1662,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
-    - target: {fileID: 1110451352180797541, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+    - target: {fileID: 1600207483479074630, guid: 28c1bdf7bba52cc4696d08beb208f66f,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d24446dc4570d1949aecd5cfb41277d1, type: 3}
     - target: {fileID: 8047350793917396226, guid: 28c1bdf7bba52cc4696d08beb208f66f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3108,6 +3108,12 @@ Transform:
   - {fileID: 470492954}
   m_Father: {fileID: 1003062578}
   m_LocalEulerAnglesHint: {x: 0, y: 91.015, z: 0}
+--- !u!82 &1977116666 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1600207483479074630, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+    type: 3}
+  m_PrefabInstance: {fileID: 754545533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1997703739
 GameObject:
   m_ObjectHideFlags: 0
@@ -3265,11 +3271,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 805016425571196199, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 1977116666}
+    - target: {fileID: 839788908664533009, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 1977116666}
     - target: {fileID: 1282372754253316834, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       propertyPath: doorLockedSound
       value: 
-      objectReference: {fileID: 1789911788}
+      objectReference: {fileID: 1977116666}
+    - target: {fileID: 1710383757654852730, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 1977116666}
     - target: {fileID: 2247028899146496007, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       propertyPath: piToHave
@@ -3345,6 +3366,11 @@ PrefabInstance:
       propertyPath: correctSound
       value: 
       objectReference: {fileID: 265755860}
+    - target: {fileID: 3338020296110693599, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 1977116666}
     - target: {fileID: 3746432592321881780, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       propertyPath: piToHave
@@ -3354,7 +3380,12 @@ PrefabInstance:
         type: 3}
       propertyPath: doorLockedSound
       value: 
-      objectReference: {fileID: 1789911788}
+      objectReference: {fileID: 1977116666}
+    - target: {fileID: 4891737688196831749, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 1977116666}
     - target: {fileID: 5364111401219802831, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       propertyPath: m_Name
@@ -3386,11 +3417,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: eecd82598b301ab46a5ba39e5803c7ae,
         type: 2}
+    - target: {fileID: 6478512134418817978, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 1977116666}
+    - target: {fileID: 7055950181132074055, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 1977116666}
+    - target: {fileID: 7846764197108878749, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 1977116666}
     - target: {fileID: 8202810810115349373, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       propertyPath: m_Intensity
       value: 7.9
       objectReference: {fileID: 0}
+    - target: {fileID: 8903859741523016045, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: doorLockedSound
+      value: 
+      objectReference: {fileID: 1977116666}
     m_RemovedComponents:
     - {fileID: 3246366479446278591, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
     m_RemovedGameObjects:
