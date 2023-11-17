@@ -23,26 +23,32 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+
+        if(pc != null)
         {
-
-            if (!pc.isInDialogue)
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
-                if (!paused)
+
+                if (!pc.isInDialogue)
                 {
-                    PauseGame();
-                    Debug.Log("Paused");
+                    if (!paused)
+                    {
+                        PauseGame();
+                        Debug.Log("Paused");
+                    }
+                    else if (paused)
+                    {
+                        ResumeGame();
+                        Debug.Log("Not Paused");
+                    }
                 }
-                else if (paused)
-                {
-                    ResumeGame();
-                    Debug.Log("Not Paused");
-                }
+
+
+
             }
-
-
-
         }
+
+
 
     }
 
