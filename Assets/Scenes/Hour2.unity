@@ -2296,6 +2296,11 @@ PrefabInstance:
       propertyPath: doorLockedSound
       value: 
       objectReference: {fileID: 1789911788}
+    - target: {fileID: 1719503745919245128, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1832119258210578317, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       propertyPath: m_Intensity
@@ -2400,6 +2405,27 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4127121993180895612, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 9091866524123060290, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 331099948783235820, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 5429731947878864137, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 3228043652448634291, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 7159563354812122248, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 3230131031533896186, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 2885003573878320304, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 1948270738183204370, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 2718440352575718628, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 5452613886946798337, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 6699039417012975662, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 3083699993053304180, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 1678114008634535245, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 554818678979218740, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 4337708583244524000, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 8013756817079100626, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 5870069399723487240, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 4517679096626167623, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 6248007205651762063, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 6421936479441188074, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 8315668724754374660, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 769206325084010322, guid: 1c77085eef169514c921abc5b52166c6,
