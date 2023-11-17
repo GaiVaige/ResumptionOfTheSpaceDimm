@@ -10,4 +10,7 @@ public class PlayerItem : MonoBehaviour
     {
         this.name = itemName;
     }
+
+
+
 }

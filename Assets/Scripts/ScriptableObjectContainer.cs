@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ScriptableObjectContainer : MonoBehaviour
@@ -26,6 +27,7 @@ public class ScriptableObjectContainer : MonoBehaviour
     public GameObject modelToDisable;
 
     public bool destroyObjectToo;
+    public AudioSource soound;
 
     public void Start()
     {
@@ -104,5 +106,17 @@ public class ScriptableObjectContainer : MonoBehaviour
 
             }
         }
+    }
+
+    public void OnDestroy()
+    {
+
+        if(soound != null)
+        {
+            soound.enabled = false;
+            soound.enabled = true;
+            soound.Play();
+        }
+
     }
 }
