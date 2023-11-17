@@ -20,6 +20,7 @@ MonoBehaviour:
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 11400000, guid: 3ba1a0c977678954aab298fa919223ad, type: 2}
-  itemToAdd: {fileID: 0}
+  itemToAdd: {fileID: 6454493564858012011, guid: 28771a1a7f29ad941adffe03bd6d6e68,
+    type: 3}
   sc: {fileID: 0}
   goNextHour: 0

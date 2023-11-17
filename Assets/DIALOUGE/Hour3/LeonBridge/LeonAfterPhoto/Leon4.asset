@@ -17,8 +17,7 @@ MonoBehaviour:
     here waiting to die and I still don't even know why! Not even a dignified death.
   art: []
   nextDialogue: {fileID: 11400000, guid: db0e23dda5b5cc84b813fa56eb7587f6, type: 2}
-  dialogueChoice:
-  - {fileID: 11400000, guid: c9b182ecbe89e944494ea93b9d21d87c, type: 2}
+  dialogueChoice: []
   dialogueChoicePreview: You gave it your all.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

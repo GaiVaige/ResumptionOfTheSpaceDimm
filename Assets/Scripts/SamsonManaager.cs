@@ -31,20 +31,16 @@ public class SamsonEndOfHourManager : MonoBehaviour
     {
         if(pi.playerItems.Count != currentCount)
         {
-
+        
             for(int i = 0; i < itemsToHave.itemsToHave.Length; i++)
             {
                 if (pi.playerItems.Contains(itemsToHave.itemsToHave[i].gameObject))
                 {
                     hasItems[i] = true;
-
-
-
-
-                    }
                 }
             }
-
+        }
+        
 
 
 
@@ -64,9 +60,9 @@ public class SamsonEndOfHourManager : MonoBehaviour
 
     public bool IsAllTrue(bool[] collection)
     {
-        for (int i = 0; i < collection.Length - 1; i++)
+        for (int i = 0; i < collection.Length; i++)
         {
-            if (!hasItems[i])
+            if (!collection[i])
             {
                 return false;
             }

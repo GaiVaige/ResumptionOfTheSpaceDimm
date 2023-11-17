@@ -18,7 +18,8 @@ MonoBehaviour:
     research my ass.
   art: []
   nextDialogue: {fileID: 0}
-  dialogueChoice: []
+  dialogueChoice:
+  - {fileID: 11400000, guid: c9b182ecbe89e944494ea93b9d21d87c, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}

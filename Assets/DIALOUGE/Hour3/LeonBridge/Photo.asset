@@ -10,18 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
-  m_Name: Alex4
+  m_Name: Photo
   m_EditorClassIdentifier: 
-  nameSpace: Alex
-  dialogue: Heh. Imagine that. We wouldn't be here if that was the case. Maybe MARIA's
-    talk of fate isn't all crazy junk. She was always the best at keeping the team
-    together.
+  nameSpace: 
+  dialogue: A photo of all of us... Leon always picks it up when it falls.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: Stop the Zonarc mission.
+  dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
-  itemToAdd: {fileID: 8254495616298787845, guid: 2d60c4c50340b174b9a9e989a8889d93,
+  itemToAdd: {fileID: 1422893504099291836, guid: b2230f6dfbe565d488d219a774a4e6fd,
     type: 3}
   sc: {fileID: 0}
   goNextHour: 0

@@ -21,6 +21,7 @@ MonoBehaviour:
   dialogueChoice: []
   dialogueChoicePreview: Restore my memory.
   dsoToAddOveride: {fileID: 0}
-  itemToAdd: {fileID: 0}
+  itemToAdd: {fileID: 8254495616298787845, guid: 2d60c4c50340b174b9a9e989a8889d93,
+    type: 3}
   sc: {fileID: 0}
   goNextHour: 0
