@@ -400,6 +400,9 @@ MonoBehaviour:
   doCounter: 1
   counter: 0
   max: 1
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
 --- !u!1001 &174096270
 PrefabInstance:
@@ -683,6 +686,9 @@ MonoBehaviour:
   doCounter: 1
   counter: 0
   max: 1
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 1
 --- !u!65 &214074999
 BoxCollider:
@@ -915,6 +921,9 @@ MonoBehaviour:
   doCounter: 1
   counter: 0
   max: 1
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
 --- !u!65 &352322997
 BoxCollider:
@@ -1208,6 +1217,9 @@ MonoBehaviour:
   doCounter: 0
   counter: 0
   max: 0
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
 --- !u!114 &490349236
 MonoBehaviour:
@@ -1222,6 +1234,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentCapacity: 0
+  soc: {fileID: 0}
+  modeltoswapto: {fileID: 0}
+  modeltodelete: {fileID: 0}
   items:
   - hasItem: 0
     dialogueUpdated: 0
@@ -1650,6 +1665,9 @@ MonoBehaviour:
   doCounter: 1
   counter: 0
   max: 1
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
 --- !u!65 &859211566
 BoxCollider:
@@ -1832,6 +1850,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentCapacity: 0
+  soc: {fileID: 0}
+  modeltoswapto: {fileID: 0}
+  modeltodelete: {fileID: 0}
   items:
   - hasItem: 0
     dialogueUpdated: 0
@@ -1879,6 +1900,9 @@ MonoBehaviour:
   doCounter: 0
   counter: 0
   max: 0
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
 --- !u!1 &1003062577
 GameObject:
@@ -1941,6 +1965,9 @@ MonoBehaviour:
   doCounter: 0
   counter: 0
   max: 0
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
 --- !u!1001 &1179984973
 PrefabInstance:
@@ -2157,6 +2184,9 @@ MonoBehaviour:
   doCounter: 0
   counter: 0
   max: 0
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
 --- !u!114 &1179984977
 MonoBehaviour:
@@ -2171,6 +2201,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentCapacity: 0
+  soc: {fileID: 0}
+  modeltoswapto: {fileID: 0}
+  modeltodelete: {fileID: 0}
   items:
   - hasItem: 0
     dialogueUpdated: 0
@@ -2252,6 +2285,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentCapacity: 0
+  soc: {fileID: 0}
+  modeltoswapto: {fileID: 0}
+  modeltodelete: {fileID: 0}
   items:
   - hasItem: 0
     dialogueUpdated: 0
@@ -2331,7 +2367,7 @@ PrefabInstance:
     - target: {fileID: 6797554701295021728, guid: 074b80f733c8bd540a470cab8914bcb7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.205
+      value: 12.178
       objectReference: {fileID: 0}
     - target: {fileID: 6797554701295021728, guid: 074b80f733c8bd540a470cab8914bcb7,
         type: 3}
@@ -2341,7 +2377,7 @@ PrefabInstance:
     - target: {fileID: 6797554701295021728, guid: 074b80f733c8bd540a470cab8914bcb7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.8049998
+      value: 3.797
       objectReference: {fileID: 0}
     - target: {fileID: 6797554701295021728, guid: 074b80f733c8bd540a470cab8914bcb7,
         type: 3}
@@ -2632,6 +2668,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentCapacity: 0
+  soc: {fileID: 0}
+  modeltoswapto: {fileID: 0}
+  modeltodelete: {fileID: 0}
   items:
   - hasItem: 0
     dialogueUpdated: 0
@@ -2679,6 +2718,9 @@ MonoBehaviour:
   doCounter: 0
   counter: 0
   max: 0
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
 --- !u!1 &1417846422
 GameObject:
@@ -2937,6 +2979,9 @@ MonoBehaviour:
   doCounter: 1
   counter: 0
   max: 1
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
 --- !u!65 &1783150351
 BoxCollider:
@@ -3068,6 +3113,9 @@ MonoBehaviour:
   doCounter: 1
   counter: 0
   max: 1
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
 --- !u!65 &1796184896
 BoxCollider:
@@ -3548,6 +3596,9 @@ MonoBehaviour:
   doCounter: 1
   counter: 0
   max: 1
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
 --- !u!65 &2020878951
 BoxCollider:
@@ -3658,6 +3709,9 @@ MonoBehaviour:
   doCounter: 1
   counter: 0
   max: 1
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 1
 --- !u!65 &2036228830
 BoxCollider:
@@ -3798,6 +3852,9 @@ MonoBehaviour:
   doCounter: 1
   counter: 0
   max: 1
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
 --- !u!65 &2067746602
 BoxCollider:
