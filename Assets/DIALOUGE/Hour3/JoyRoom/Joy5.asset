@@ -14,9 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Joy
   dialogue: You are an impressive piece of technology, I admit. but I can't help
-    but say I've been let down. In another life ASH, try harder. Go talk to ALEX
+    but say I've been let down. In another life Ash, try harder. Go talk to Alex
     or someone. I don't care anymore.
-  art: []
+  art:
+  - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
+  - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
+  - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
+  - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
+  - {fileID: 21300000, guid: 7df7193e37682034b84291e06e28b9d5, type: 3}
+  - {fileID: 21300000, guid: 7df7193e37682034b84291e06e28b9d5, type: 3}
+  - {fileID: 21300000, guid: 7df7193e37682034b84291e06e28b9d5, type: 3}
+  - {fileID: 21300000, guid: 7df7193e37682034b84291e06e28b9d5, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: 

@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Leon
   dialogue: There isn't any cool way to say this but, I think I'm dying man.
-  art: []
+  art:
+  - {fileID: 21300000, guid: 4ef66af937418f540b841710393de520, type: 3}
+  - {fileID: 21300000, guid: 4ef66af937418f540b841710393de520, type: 3}
+  - {fileID: 21300000, guid: 4ef66af937418f540b841710393de520, type: 3}
+  - {fileID: 21300000, guid: fcb050e9e0b70b74082216a16fa71fc6, type: 3}
+  - {fileID: 21300000, guid: fcb050e9e0b70b74082216a16fa71fc6, type: 3}
+  - {fileID: 21300000, guid: fcb050e9e0b70b74082216a16fa71fc6, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: f9616c34dcc5bae40abb6c78779586f3, type: 2}

@@ -15,7 +15,17 @@ MonoBehaviour:
   nameSpace: Leon
   dialogue: 'I''ve fought for this crew for so. Many. Years. I tried, you know? I
     actually tried. But sometimes that''s not enough. '
-  art: []
+  art:
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: 4555bad6bf6cbfe47b731865a851122b, type: 2}

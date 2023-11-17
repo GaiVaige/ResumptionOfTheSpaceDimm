@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Maria
   dialogue: ................
-  art: []
+  art:
+  - {fileID: 21300000, guid: c09837cc84bf2114b902f1448845aff9, type: 3}
   nextDialogue: {fileID: 11400000, guid: 15c191bd5f1f0c540b5508840b5783cd, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

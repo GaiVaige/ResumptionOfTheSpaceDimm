@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Alex
   dialogue: Pirates honour! If I say something, he threatened to pin the whole Zonarc
     sting on me!
-  art: []
+  art:
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: 6d346174148167a4a834b8c5ae745715, type: 3}
+  - {fileID: 21300000, guid: 6d346174148167a4a834b8c5ae745715, type: 3}
+  - {fileID: 21300000, guid: 6d346174148167a4a834b8c5ae745715, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: 90b698c3990e86e4b8258afe7659f643, type: 2}

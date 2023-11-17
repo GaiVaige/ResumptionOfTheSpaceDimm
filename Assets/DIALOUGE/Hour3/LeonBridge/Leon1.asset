@@ -13,10 +13,16 @@ MonoBehaviour:
   m_Name: Leon1
   m_EditorClassIdentifier: 
   nameSpace: Leon
-  dialogue: Hey *cough* it's my bro, Ash! We were something, huh? Fighters. Killers.
+  dialogue: Hey. *cough*. It's my bro, Ash! We were something, huh? Fighters. Killers.
     Licensed contractors. Hard to imagine we would go out like this. I always thought
     we would go down doing the right thing.
-  art: []
+  art:
+  - {fileID: 21300000, guid: 4ef66af937418f540b841710393de520, type: 3}
+  - {fileID: 21300000, guid: 4ef66af937418f540b841710393de520, type: 3}
+  - {fileID: 21300000, guid: 4ef66af937418f540b841710393de520, type: 3}
+  - {fileID: 21300000, guid: fcb050e9e0b70b74082216a16fa71fc6, type: 3}
+  - {fileID: 21300000, guid: fcb050e9e0b70b74082216a16fa71fc6, type: 3}
+  - {fileID: 21300000, guid: fcb050e9e0b70b74082216a16fa71fc6, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: 8cd24f98e64376645b8d71a05865fdb0, type: 2}

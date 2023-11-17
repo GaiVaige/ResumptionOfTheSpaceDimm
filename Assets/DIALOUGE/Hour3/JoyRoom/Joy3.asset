@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Joy
   dialogue: I don't like the way you sit there and 'think'. What do you have to process?
     Because of your inability to figure this out, I'm stuck here.
-  art: []
+  art:
+  - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
+  - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
+  - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
+  - {fileID: 21300000, guid: f798af140e1d58443bf182a4b97adfb9, type: 3}
+  - {fileID: 21300000, guid: f798af140e1d58443bf182a4b97adfb9, type: 3}
+  - {fileID: 21300000, guid: f798af140e1d58443bf182a4b97adfb9, type: 3}
   nextDialogue: {fileID: 11400000, guid: fd6058974aecb494da00b4a7a8d88825, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

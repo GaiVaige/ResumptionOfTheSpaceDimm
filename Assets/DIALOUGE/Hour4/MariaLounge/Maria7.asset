@@ -15,7 +15,15 @@ MonoBehaviour:
   nameSpace: Maria
   dialogue: Do you fear death? Hell, I don't even know if you can compute what it
     means to actually die.
-  art: []
+  art:
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: 20ac42a7242bd3446b5b4f446a719c10, type: 2}

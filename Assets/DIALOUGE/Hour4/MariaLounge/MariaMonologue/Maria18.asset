@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Maria
   dialogue: Time and death cease to exist.
-  art: []
+  art:
+  - {fileID: 21300000, guid: c09837cc84bf2114b902f1448845aff9, type: 3}
+  - {fileID: 21300000, guid: c09837cc84bf2114b902f1448845aff9, type: 3}
+  - {fileID: 21300000, guid: c09837cc84bf2114b902f1448845aff9, type: 3}
+  - {fileID: 21300000, guid: bc6a8a0e5db060649a4cfb8d1420fce3, type: 3}
+  - {fileID: 21300000, guid: bc6a8a0e5db060649a4cfb8d1420fce3, type: 3}
+  - {fileID: 21300000, guid: bc6a8a0e5db060649a4cfb8d1420fce3, type: 3}
   nextDialogue: {fileID: 11400000, guid: afbab91ea2482624d91a2d262b10131e, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

@@ -16,7 +16,15 @@ MonoBehaviour:
   dialogue: The body slows, a weak procession of cells surrendering to stillness.
     Yet, the brain persists, a symphony of neurons pulsating rapid bursts, push to
     show you your life one last time.
-  art: []
+  art:
+  - {fileID: 21300000, guid: c09837cc84bf2114b902f1448845aff9, type: 3}
+  - {fileID: 21300000, guid: c09837cc84bf2114b902f1448845aff9, type: 3}
+  - {fileID: 21300000, guid: c09837cc84bf2114b902f1448845aff9, type: 3}
+  - {fileID: 21300000, guid: c09837cc84bf2114b902f1448845aff9, type: 3}
+  - {fileID: 21300000, guid: bc6a8a0e5db060649a4cfb8d1420fce3, type: 3}
+  - {fileID: 21300000, guid: bc6a8a0e5db060649a4cfb8d1420fce3, type: 3}
+  - {fileID: 21300000, guid: bc6a8a0e5db060649a4cfb8d1420fce3, type: 3}
+  - {fileID: 21300000, guid: bc6a8a0e5db060649a4cfb8d1420fce3, type: 3}
   nextDialogue: {fileID: 11400000, guid: fe80edc7107fec8469a15323f99d3c54, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: I want to enjoy my last moments with you.

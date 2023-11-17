@@ -14,7 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Maria
   dialogue: I'm returning home, just by remembering.
-  art: []
+  art:
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: fb058bda3a6e4d14bb3ca623595ef6c5, type: 3}
+  - {fileID: 21300000, guid: fb058bda3a6e4d14bb3ca623595ef6c5, type: 3}
+  - {fileID: 21300000, guid: fb058bda3a6e4d14bb3ca623595ef6c5, type: 3}
+  - {fileID: 21300000, guid: fb058bda3a6e4d14bb3ca623595ef6c5, type: 3}
   nextDialogue: {fileID: 11400000, guid: b973210f3b591e34aa4edb47233b45d9, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

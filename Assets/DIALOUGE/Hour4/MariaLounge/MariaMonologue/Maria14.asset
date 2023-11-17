@@ -16,7 +16,15 @@ MonoBehaviour:
   dialogue: Myself and my memories...they all came after. I precede them, and I will
     transcend them. Moments converge, like delicate droplets of paint on the canvas
     of my weary mind.
-  art: []
+  art:
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
   nextDialogue: {fileID: 11400000, guid: 1f7c5d056eb50254eba962eb60518247, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

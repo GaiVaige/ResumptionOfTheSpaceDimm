@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Joy
   dialogue: '*cough* Ash. '
-  art: []
+  art:
+  - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
+  - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
+  - {fileID: 21300000, guid: 7df7193e37682034b84291e06e28b9d5, type: 3}
+  - {fileID: 21300000, guid: 7df7193e37682034b84291e06e28b9d5, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: 1f65909610eb8604b812da7c28d612dd, type: 2}
