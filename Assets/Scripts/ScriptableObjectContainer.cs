@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScriptableObjectContainer : MonoBehaviour
 {
-
+    PlayerController de;
 
     [Tooltip("Set what dialogue to load when the character raycast returns this object, as a DialogueScriptableObject (RightClick in Assets Section > ScriptableObject)")]
     public DialogueScriptableObject dso;
@@ -20,7 +20,18 @@ public class ScriptableObjectContainer : MonoBehaviour
     public int counter;
     public int max;
 
+
+    public bool doModelSwap;
+    public GameObject modelToSwapTO;
+    public GameObject modelToDisable;
+
     public bool destroyObjectToo;
+
+    public void Start()
+    {
+        de = FindObjectOfType<PlayerController>();
+    }
+
 
     public void Update()
     {
@@ -38,8 +49,18 @@ public class ScriptableObjectContainer : MonoBehaviour
             }
         }
 
-        if (noMore)
+
+
+        if (noMore && !doModelSwap)
         {
+
+
+
+
+
+
+
+
             if (dso.dsoToAddOveride != null)
             {
                 dsoToAdd = dso.dsoToAddOveride;
@@ -67,6 +88,21 @@ public class ScriptableObjectContainer : MonoBehaviour
         }
 
 
+        if(noMore)
+        {
+            if (doModelSwap)
+            {
+                if (!de.isInDialogue)
+                {
+                    modelToSwapTO.SetActive(true);
+                    modelToDisable.SetActive(false);
+                    doModelSwap = false;
+                    Destroy(this);
+                }
 
+
+
+            }
+        }
     }
 }

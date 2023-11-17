@@ -7,8 +7,10 @@ public class NPCManager : MonoBehaviour
 {
     PlayerInventory pi;
     public int currentCapacity;
+    public ScriptableObjectContainer soc;
 
-
+    public GameObject modeltoswapto;
+    public GameObject modeltodelete;
 
     [Tooltip("Here you can set what items to check for, drag and drop the prefab you would give the player into the slot. Every time the player gets an item, all NPCs in the scene will check.")]
     public ItemData[] items;
@@ -23,6 +25,13 @@ public class NPCManager : MonoBehaviour
 
     public void Update()
     {
+
+
+
+
+
+
+
         if(pi.playerItems.Count != currentCapacity)
         {
             foreach(ItemData pitem in items)
@@ -52,7 +61,16 @@ public class NPCManager : MonoBehaviour
                         }
 
                         pitem.hasItem = true;
+                        soc = GetComponent<ScriptableObjectContainer>();
+
+                        if(modeltodelete && modeltoswapto != null)
+                        {
+                            soc.modelToDisable = modeltodelete;
+                            soc.modelToSwapTO = modeltoswapto;
+                        }
+
                         pitem.dialogueUpdated = true;
+
                     }
 
 

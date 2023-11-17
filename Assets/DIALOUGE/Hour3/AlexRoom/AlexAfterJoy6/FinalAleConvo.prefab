@@ -50,4 +50,7 @@ MonoBehaviour:
   doCounter: 1
   counter: 0
   max: 1
+  doModelSwap: 1
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
