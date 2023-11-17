@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Joy2
   m_EditorClassIdentifier: 
   nameSpace: Joy
-  dialogue: The others really don't care about this situation. And I guess I don't
-    either. I just want off this floating coffin. I've done my job... I think I left
-    my headphones in LEON's room. Get it for me.
+  dialogue: The others are already jaded about this situation. And I guess I am too.
+    I just want off this floating coffin. I've done my job... I think I left my headphones
+    in LEON's room. Get it for me.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
   m_Name: Samson2
   m_EditorClassIdentifier: 
-  nameSpace: Samson [Over Comms]
+  nameSpace: Samson
   dialogue: Have you figured out who is sick yet?
   art: []
   nextDialogue: {fileID: 0}

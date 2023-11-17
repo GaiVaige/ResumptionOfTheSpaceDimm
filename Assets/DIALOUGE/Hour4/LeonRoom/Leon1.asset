@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Leon1
   m_EditorClassIdentifier: 
   nameSpace: Leon
-  dialogue: There isn't any cool way to see this but, I think I'm dying man.
+  dialogue: There isn't any cool way to say this but, I think I'm dying man.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice:

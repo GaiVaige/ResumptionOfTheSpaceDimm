@@ -10,17 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
-  m_Name: Photo
+  m_Name: Operations
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: A photo of all of us... Leon always picks it up when it falls.
-  art:
-  - {fileID: 21300000, guid: 104addb74b9bfa84babdef49d327ee75, type: 3}
+  dialogue: OPERATIONS
+  art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
-  itemToAdd: {fileID: 1422893504099291836, guid: b2230f6dfbe565d488d219a774a4e6fd,
-    type: 3}
-  sc: {fileID: 8300000, guid: 1c8ad58bdd731904d97cfae6715a3b17, type: 3}
+  itemToAdd: {fileID: 0}
+  sc: {fileID: 0}
   goNextHour: 0

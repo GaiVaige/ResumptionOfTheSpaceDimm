@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: Leon2
   m_EditorClassIdentifier: 
   nameSpace: Leon
-  dialogue: JOY... after the Zonarc mission... they've been distant from the team
-    since we hired her, but they know something. Smart, and capable... back on Zonarc
-    they hesitated. Do me a favor and grab me a photo of the team from the Lounge.
+  dialogue: Joy... after the Zonarc mission... they've been distant from the team
+    since we hired her, but they know something. They're smart, and capable... back
+    on Zonarc they hesitated. Do me a favor and grab me a photo of the team from
+    the Lounge.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: I was I could remember it all...
+  dialogueChoicePreview: I wish I could remember it.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

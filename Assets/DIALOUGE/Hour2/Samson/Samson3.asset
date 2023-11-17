@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
   m_Name: Samson3
   m_EditorClassIdentifier: 
-  nameSpace: Samson [Over Comms]
+  nameSpace: Samson
   dialogue: I don't gotta listen to a GOD damn thing you say, robot. You do as I
     say. Now, give me a status report.
   art: []

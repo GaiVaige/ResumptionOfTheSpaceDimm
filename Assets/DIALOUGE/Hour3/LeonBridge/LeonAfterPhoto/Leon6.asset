@@ -18,7 +18,7 @@ MonoBehaviour:
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: Bio... weapon?
+  dialogueChoicePreview: Bio... Weapon?
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 6866661160255510768, guid: 84ce6ebaf193ce140882f8174ed09572,
     type: 3}
