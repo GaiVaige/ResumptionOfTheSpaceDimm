@@ -44,7 +44,13 @@ public class DialogueEngine : MonoBehaviour
         choiceStep = 0;
         uim = FindObjectOfType<UIManager>();
         goNextHour = false;
-        imageOverride.SetActive(false);
+
+
+        if(loadedDialogue.art.Length == 0)
+        {
+            imageOverride.SetActive(false);
+        }
+
 
     }
 
