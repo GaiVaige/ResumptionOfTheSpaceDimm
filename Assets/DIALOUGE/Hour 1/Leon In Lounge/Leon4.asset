@@ -15,7 +15,8 @@ MonoBehaviour:
   nameSpace: Leon
   dialogue: Holy shit. For a second there I forgot about what's happening. Whatever.
     It's space beer time. Save me space beer! You're my only hope!
-  art: []
+  art:
+  - {fileID: 21300000, guid: bf4d2071471e4974d80724da9e816e9d, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: 
