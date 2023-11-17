@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Alex
   dialogue: We've had a few missions turn to shit, I don't blame him for the way
     he feels... but he's comfortable talking to you... right sorry I keep forgetting.
-  art: []
+  art:
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: 6d346174148167a4a834b8c5ae745715, type: 3}
+  - {fileID: 21300000, guid: 6d346174148167a4a834b8c5ae745715, type: 3}
+  - {fileID: 21300000, guid: 6d346174148167a4a834b8c5ae745715, type: 3}
   nextDialogue: {fileID: 11400000, guid: fd180bd5ade229141be8302feaf906a1, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

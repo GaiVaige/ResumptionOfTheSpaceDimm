@@ -16,7 +16,13 @@ MonoBehaviour:
   dialogue: Dude? Dude?? DUDE!! I swear I'm the only one freaking out about this
     situation! The rest of the crew is missing. And SAM is in the escape pod saying
     we might be infected?
-  art: []
+  art:
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
   nextDialogue: {fileID: 11400000, guid: 5ab4c0a38e9d8b14e864f4f97ea22ab8, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

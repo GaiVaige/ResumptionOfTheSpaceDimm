@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Joy
   dialogue: Maybe he's just waiting for something to happen? If only we had our blasters.
-  art: []
+  art:
+  - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
+  - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
+  - {fileID: 21300000, guid: f798af140e1d58443bf182a4b97adfb9, type: 3}
+  - {fileID: 21300000, guid: f798af140e1d58443bf182a4b97adfb9, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: 

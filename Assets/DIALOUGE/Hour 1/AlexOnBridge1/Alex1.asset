@@ -13,10 +13,16 @@ MonoBehaviour:
   m_Name: Alex1
   m_EditorClassIdentifier: 
   nameSpace: Alex
-  dialogue: 'We''re making no progress here. SAM is keeping me in the dark. We''re
+  dialogue: 'We''re making no progress here. Sam is keeping me in the dark. We''re
     on course for the heat death of us all, I can confirm that much. JOY mentioned
-    something about a sickness. do you think he''s done something? As in SAM. '
-  art: []
+    something about a sickness. do you think he''s done something? As in Sam. '
+  art:
+  - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
+  - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
+  - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: 7439834488d007046843a4c0409c8572, type: 2}

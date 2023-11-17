@@ -16,7 +16,13 @@ MonoBehaviour:
   dialogue: Look at the guy! How could I not have a problem with him. He's keeping
     us in the dark and locked himself inside the pod! For all we know he's sick!
     God... He can't be though... right?
-  art: []
+  art:
+  - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
+  - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
+  - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
   nextDialogue: {fileID: 11400000, guid: 43971e310fdebd3469dfbae3a1227e33, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: Do you have an issue with Sam?

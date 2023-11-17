@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Joy
   dialogue: ' What are you up to, huh? What does SAMSON want with you? Don''t think
     I haven''t noticed you talking to the others.'
-  art: []
+  art:
+  - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
+  - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
+  - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
+  - {fileID: 21300000, guid: f798af140e1d58443bf182a4b97adfb9, type: 3}
+  - {fileID: 21300000, guid: f798af140e1d58443bf182a4b97adfb9, type: 3}
+  - {fileID: 21300000, guid: f798af140e1d58443bf182a4b97adfb9, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: 4ecc580a188509a42a08f7bc02934713, type: 2}

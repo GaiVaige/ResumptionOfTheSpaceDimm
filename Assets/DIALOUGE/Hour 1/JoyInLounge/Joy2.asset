@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Joy
   dialogue: 'I swear if he has something to do with this situation... I''m not sure
     what I''ll do. It would be unwise do take everything he says as fact. '
-  art: []
+  art:
+  - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
+  - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
+  - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
+  - {fileID: 21300000, guid: f798af140e1d58443bf182a4b97adfb9, type: 3}
+  - {fileID: 21300000, guid: f798af140e1d58443bf182a4b97adfb9, type: 3}
+  - {fileID: 21300000, guid: f798af140e1d58443bf182a4b97adfb9, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: 

@@ -16,7 +16,13 @@ MonoBehaviour:
   dialogue: A computer in the Operations Room should tell you want you want to know
     about yourself. It's from right before the Celestial Crash in the Outer Rim...
     so it's old. Plug in 2724...
-  art: []
+  art:
+  - {fileID: 21300000, guid: 64dbfce5e1815ea408bbfbff4b714fa8, type: 3}
+  - {fileID: 21300000, guid: 64dbfce5e1815ea408bbfbff4b714fa8, type: 3}
+  - {fileID: 21300000, guid: 64dbfce5e1815ea408bbfbff4b714fa8, type: 3}
+  - {fileID: 21300000, guid: fab937524726b9443a47ff2bbc5e90a8, type: 3}
+  - {fileID: 21300000, guid: fab937524726b9443a47ff2bbc5e90a8, type: 3}
+  - {fileID: 21300000, guid: fab937524726b9443a47ff2bbc5e90a8, type: 3}
   nextDialogue: {fileID: 11400000, guid: 12b299b1d3e617a40b8dbe2743442aef, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

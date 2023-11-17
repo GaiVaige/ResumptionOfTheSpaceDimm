@@ -15,7 +15,11 @@ MonoBehaviour:
   nameSpace: Maria
   dialogue: Hey! Thanks. Final Hour written by Nova Chronos. It's a book that explores
     what would happen to the world if time travel was real.
-  art: []
+  art:
+  - {fileID: 21300000, guid: 6c25e4a2d42ddd041ad784997f10b105, type: 3}
+  - {fileID: 21300000, guid: 6c25e4a2d42ddd041ad784997f10b105, type: 3}
+  - {fileID: 21300000, guid: bb2ed65701a392c43bb399e7bed49af0, type: 3}
+  - {fileID: 21300000, guid: bb2ed65701a392c43bb399e7bed49af0, type: 3}
   nextDialogue: {fileID: 11400000, guid: b09b2e14eff5aad438e8057ddda2f0b0, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

@@ -16,7 +16,15 @@ MonoBehaviour:
   dialogue: Right in the middle of the city too... how can people be so reckless.
     Bloody ZDF. Who the hell tipped them off!? If it wasn't for JOY we would be dead.
     Well, more of us would be dead.
-  art: []
+  art:
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: 9a761943be4f0bb4b9ef26acaa0e6dc1, type: 2}

@@ -15,7 +15,11 @@ MonoBehaviour:
   nameSpace: Maria
   dialogue: I did a thesis on it a few years back when I was space cadet, before
     we decided to turn to a life of... ya know. Mercenaries for hire? Space pirates?
-  art: []
+  art:
+  - {fileID: 21300000, guid: 6c25e4a2d42ddd041ad784997f10b105, type: 3}
+  - {fileID: 21300000, guid: 6c25e4a2d42ddd041ad784997f10b105, type: 3}
+  - {fileID: 21300000, guid: bb2ed65701a392c43bb399e7bed49af0, type: 3}
+  - {fileID: 21300000, guid: bb2ed65701a392c43bb399e7bed49af0, type: 3}
   nextDialogue: {fileID: 11400000, guid: b1132b5e296c46d4793d6da33326737c, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

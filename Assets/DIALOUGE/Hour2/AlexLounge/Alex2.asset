@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Alex
   dialogue: How does a guy like him even become a ship officer if he's that cowardly.
     You need to convince him to unlock the door, you can do that right?
-  art: []
+  art:
+  - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
+  - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
+  - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: 99f14050d79797e4c85b75562767f09d, type: 2}

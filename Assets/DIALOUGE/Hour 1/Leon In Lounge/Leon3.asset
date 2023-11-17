@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Leon
   dialogue: Aw, bro you're the best. Space beer. It's just better, ya know? I mean
     you don't know because... ya know... you can't drink them. You're missing out!
-  art: []
+  art:
+  - {fileID: 21300000, guid: 4ef66af937418f540b841710393de520, type: 3}
+  - {fileID: 21300000, guid: 4ef66af937418f540b841710393de520, type: 3}
+  - {fileID: 21300000, guid: 4ef66af937418f540b841710393de520, type: 3}
+  - {fileID: 21300000, guid: fcb050e9e0b70b74082216a16fa71fc6, type: 3}
+  - {fileID: 21300000, guid: fcb050e9e0b70b74082216a16fa71fc6, type: 3}
+  - {fileID: 21300000, guid: fcb050e9e0b70b74082216a16fa71fc6, type: 3}
   nextDialogue: {fileID: 11400000, guid: 756b0b8bdce1b4b4bb0c6ad604dca567, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
