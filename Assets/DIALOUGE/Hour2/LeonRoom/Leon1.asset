@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Leon
   dialogue: Hey... sorry. I feel aimless. What do we even do? I feel so cooped up
     in this place. We don't even have access to the games room. Agh!
-  art: []
+  art:
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: dbfba9a9348bdb1468256c77a9bfd209, type: 3}
+  - {fileID: 21300000, guid: dbfba9a9348bdb1468256c77a9bfd209, type: 3}
+  - {fileID: 21300000, guid: dbfba9a9348bdb1468256c77a9bfd209, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: c40752b0aa5f79c409e773f1c86cb9c2, type: 2}

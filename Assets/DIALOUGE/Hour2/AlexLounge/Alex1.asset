@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Alex
   dialogue: Sammy is starting to really piss me off. He's been in there for well
     over an hour now.
-  art: []
+  art:
+  - {fileID: 21300000, guid: 64dbfce5e1815ea408bbfbff4b714fa8, type: 3}
+  - {fileID: 21300000, guid: 64dbfce5e1815ea408bbfbff4b714fa8, type: 3}
+  - {fileID: 21300000, guid: 64dbfce5e1815ea408bbfbff4b714fa8, type: 3}
+  - {fileID: 21300000, guid: fab937524726b9443a47ff2bbc5e90a8, type: 3}
+  - {fileID: 21300000, guid: fab937524726b9443a47ff2bbc5e90a8, type: 3}
+  - {fileID: 21300000, guid: fab937524726b9443a47ff2bbc5e90a8, type: 3}
   nextDialogue: {fileID: 11400000, guid: 20d46fc4564707f4e826d6da50832f59, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Alex
   dialogue: Pfft. Crazy talk.
-  art: []
+  art:
+  - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
+  - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
+  - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: It's you.

@@ -13,13 +13,20 @@ MonoBehaviour:
   m_Name: Leon2
   m_EditorClassIdentifier: 
   nameSpace: Leon
-  dialogue: JOY... after the Zonarc mission... they've been distant from the team
-    since we hired her, but they know something. Smart, and capable... back on Zonarc
-    they hesitated. Do me a favor and grab me a photo of the team from the Lounge.
-  art: []
+  dialogue: Joy... after the Zonarc mission... they've been distant from the team
+    since we hired her, but they know something. They're smart, and capable... back
+    on Zonarc they hesitated. Do me a favor and grab me a photo of the team from
+    the Lounge.
+  art:
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: dbfba9a9348bdb1468256c77a9bfd209, type: 3}
+  - {fileID: 21300000, guid: dbfba9a9348bdb1468256c77a9bfd209, type: 3}
+  - {fileID: 21300000, guid: dbfba9a9348bdb1468256c77a9bfd209, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: I was I could remember it all...
+  dialogueChoicePreview: I wish I could remember it.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

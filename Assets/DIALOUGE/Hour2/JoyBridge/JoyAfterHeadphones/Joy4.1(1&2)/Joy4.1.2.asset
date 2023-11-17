@@ -16,7 +16,13 @@ MonoBehaviour:
   dialogue: I don't have much to live for anymore. If this is the end so be it. So
     much bloodshed has led me here. *cough* If I die now it is what the universe
     wanted.
-  art: []
+  art:
+  - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
+  - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
+  - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
+  - {fileID: 21300000, guid: 7df7193e37682034b84291e06e28b9d5, type: 3}
+  - {fileID: 21300000, guid: 7df7193e37682034b84291e06e28b9d5, type: 3}
+  - {fileID: 21300000, guid: 7df7193e37682034b84291e06e28b9d5, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: Turning you in would be in the team's best interest.

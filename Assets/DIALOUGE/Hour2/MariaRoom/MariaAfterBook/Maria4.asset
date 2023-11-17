@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Maria
   dialogue: 'Anyway, I decided to start re-reading it and it has some heart-aching
     quotes. Like listen to this:'
-  art: []
+  art:
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: bb2ed65701a392c43bb399e7bed49af0, type: 3}
+  - {fileID: 21300000, guid: bb2ed65701a392c43bb399e7bed49af0, type: 3}
+  - {fileID: 21300000, guid: bb2ed65701a392c43bb399e7bed49af0, type: 3}
   nextDialogue: {fileID: 11400000, guid: 3edd714c12b8a6b4a98eb1fcfc51b97c, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

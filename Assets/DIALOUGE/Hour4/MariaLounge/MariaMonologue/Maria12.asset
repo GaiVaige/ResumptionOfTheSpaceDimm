@@ -15,7 +15,17 @@ MonoBehaviour:
   nameSpace: Maria
   dialogue: This corporeal form, a vessel adrift in an expanse of emptiness, unravels
     the illusion of existence. I was never really here.
-  art: []
+  art:
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
   nextDialogue: {fileID: 11400000, guid: d0845ce18623fa145a77504a4338ba58, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

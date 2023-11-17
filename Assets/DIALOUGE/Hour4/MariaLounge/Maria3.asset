@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Maria
   dialogue: Good. I would have been upset if I didn't get to say goodbye. I don't
     think anyone asked you - how do *you* feel?
-  art: []
+  art:
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: fb058bda3a6e4d14bb3ca623595ef6c5, type: 3}
+  - {fileID: 21300000, guid: fb058bda3a6e4d14bb3ca623595ef6c5, type: 3}
+  - {fileID: 21300000, guid: fb058bda3a6e4d14bb3ca623595ef6c5, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: 3ac796c43bdcfc3408a58551d7454180, type: 2}

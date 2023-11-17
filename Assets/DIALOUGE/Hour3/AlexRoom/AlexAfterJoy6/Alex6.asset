@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Alex
   dialogue: I don't know! The time codes indicated somewhere around the Zonarc mission.
     That's the ONLY thought I gave it. I swear.
-  art: []
+  art:
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
+  - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: 327d411b89fc7d249b902dcc1324b215, type: 2}

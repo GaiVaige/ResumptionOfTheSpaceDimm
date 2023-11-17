@@ -13,9 +13,17 @@ MonoBehaviour:
   m_Name: Alex1
   m_EditorClassIdentifier: 
   nameSpace: Alex
-  dialogue: I feel awful, ASH. I don't think I got much longer left. I'm burning
+  dialogue: I feel awful, Ash. I don't think I got much longer left. I'm burning
     up. My lungs hurt. Get me a box of tissues, will ya?
-  art: []
+  art:
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: 6d346174148167a4a834b8c5ae745715, type: 3}
+  - {fileID: 21300000, guid: 6d346174148167a4a834b8c5ae745715, type: 3}
+  - {fileID: 21300000, guid: 6d346174148167a4a834b8c5ae745715, type: 3}
+  - {fileID: 21300000, guid: 6d346174148167a4a834b8c5ae745715, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: 

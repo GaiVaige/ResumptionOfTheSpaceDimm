@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Joy
   dialogue: Hey thanks. The music helps.
-  art: []
+  art:
+  - {fileID: 21300000, guid: fcdc29f55ef9a334e90d118d9a0a83c8, type: 3}
+  - {fileID: 21300000, guid: fcdc29f55ef9a334e90d118d9a0a83c8, type: 3}
+  - {fileID: 21300000, guid: fcdc29f55ef9a334e90d118d9a0a83c8, type: 3}
+  - {fileID: 21300000, guid: 0425916541eebfe449ce11f2ea225f18, type: 3}
+  - {fileID: 21300000, guid: 0425916541eebfe449ce11f2ea225f18, type: 3}
+  - {fileID: 21300000, guid: 0425916541eebfe449ce11f2ea225f18, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: 4872f2a2ec26b6344bfd10aaaf0cc88f, type: 2}

@@ -13,10 +13,16 @@ MonoBehaviour:
   m_Name: Joy2
   m_EditorClassIdentifier: 
   nameSpace: Joy
-  dialogue: The others really don't care about this situation. And I guess I don't
-    either. I just want off this floating coffin. I've done my job... I think I left
-    my headphones in LEON's room. Get it for me.
-  art: []
+  dialogue: The others are already jaded about this situation. And I guess I am too.
+    I just want off this floating coffin. I've done my job... I think I left my headphones
+    in LEON's room. Get it for me.
+  art:
+  - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
+  - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
+  - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
+  - {fileID: 21300000, guid: 7df7193e37682034b84291e06e28b9d5, type: 3}
+  - {fileID: 21300000, guid: 7df7193e37682034b84291e06e28b9d5, type: 3}
+  - {fileID: 21300000, guid: 7df7193e37682034b84291e06e28b9d5, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: 

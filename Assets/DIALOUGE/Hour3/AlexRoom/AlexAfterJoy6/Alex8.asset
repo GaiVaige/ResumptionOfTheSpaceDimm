@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: Alex8
   m_EditorClassIdentifier: 
   nameSpace: Alex
-  dialogue: I mean it was pretty obvious. How else would ZDR have known of our whereabouts?
-    Holy shit... it WAS a sting! We have a rat!
-  art: []
+  dialogue: I mean it was pretty obvious. How else would the ZDR have known of our
+    whereabouts? Holy shit... it WAS a sting! We have a rat!
+  art:
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: 6d346174148167a4a834b8c5ae745715, type: 3}
+  - {fileID: 21300000, guid: 6d346174148167a4a834b8c5ae745715, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice:
   - {fileID: 11400000, guid: bc02cb9f3c3e0cf44b71504841da9c67, type: 2}

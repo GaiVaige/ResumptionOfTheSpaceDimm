@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Leon
   dialogue: All I can think about is Zonarc. That mission screwed me up. I was never
     ready for this.
-  art: []
+  art:
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
   nextDialogue: {fileID: 11400000, guid: 68628e0edc9c233469780cd25e0af78b, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: Meditate.

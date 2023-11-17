@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Maria
   dialogue: You're right. I'll talk to you later. I hope the others are okay.
-  art: []
+  art:
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: 559d64345a57dae44acb5b9edda20eca, type: 3}
+  - {fileID: 21300000, guid: bb2ed65701a392c43bb399e7bed49af0, type: 3}
+  - {fileID: 21300000, guid: bb2ed65701a392c43bb399e7bed49af0, type: 3}
+  - {fileID: 21300000, guid: bb2ed65701a392c43bb399e7bed49af0, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: You should sleep.

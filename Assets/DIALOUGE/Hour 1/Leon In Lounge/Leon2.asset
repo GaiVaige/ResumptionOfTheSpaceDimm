@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Leon
   dialogue: 'I need another space beer... could you get me one? We keep them in the
     space beer fridge on the Bridge. '
-  art: []
+  art:
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: dbfba9a9348bdb1468256c77a9bfd209, type: 3}
+  - {fileID: 21300000, guid: dbfba9a9348bdb1468256c77a9bfd209, type: 3}
+  - {fileID: 21300000, guid: dbfba9a9348bdb1468256c77a9bfd209, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: 

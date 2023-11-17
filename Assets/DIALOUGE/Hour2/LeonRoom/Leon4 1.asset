@@ -16,7 +16,15 @@ MonoBehaviour:
   dialogue: It was an in and out mission. Secure the package and meet the buyer on
     some abandoned ship-port in Sector Z. Despite the warning signs I'm sure you
     recall we decided to accept the mission.
-  art: []
+  art:
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
   nextDialogue: {fileID: 11400000, guid: eafe403dcbe173446bf27b7287da7bab, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: Glimpses. I can't access it.

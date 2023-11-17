@@ -15,10 +15,16 @@ MonoBehaviour:
   nameSpace: Leon
   dialogue: I shouldn't say anything, it really isn't my place to say dude. 8194.
     That's your ticket.
-  art: []
+  art:
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: Bio... weapon?
+  dialogueChoicePreview: Bio... Weapon?
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 6866661160255510768, guid: 84ce6ebaf193ce140882f8174ed09572,
     type: 3}

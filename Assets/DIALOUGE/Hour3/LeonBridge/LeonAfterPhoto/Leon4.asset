@@ -15,7 +15,15 @@ MonoBehaviour:
   nameSpace: Leon
   dialogue: I always wanted to be the best I could be, and now I can't. I'm stuck
     here waiting to die and I still don't even know why! Not even a dignified death.
-  art: []
+  art:
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
+  - {fileID: 21300000, guid: 66c13e070bc9e89478c0a279c5bcd8b5, type: 3}
   nextDialogue: {fileID: 11400000, guid: db0e23dda5b5cc84b813fa56eb7587f6, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: You gave it your all.

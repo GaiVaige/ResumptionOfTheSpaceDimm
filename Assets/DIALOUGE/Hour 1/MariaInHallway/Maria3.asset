@@ -15,7 +15,13 @@ MonoBehaviour:
   nameSpace: Maria
   dialogue: 'We can''t broadcast to any of the other decks. They aren''t responding.
     All he told us was to not panic and well I''m panicking! '
-  art: []
+  art:
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
+  - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
   nextDialogue: {fileID: 11400000, guid: 95262b2cbb1b6ab4688348d7b8a63677, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 

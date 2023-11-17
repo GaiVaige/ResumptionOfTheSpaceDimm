@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
   m_Name: Samson4
   m_EditorClassIdentifier: 
-  nameSpace: Samson [Over Comms]
-  dialogue: SAMSON  You don't have time. You were commanded to see who is infected
-    and who is not. You are only killing innocent people. Work harder. Work better.
+  nameSpace: Samson
+  dialogue: You don't have time. You were commanded to see who is infected and who
+    is not. You are only killing innocent people. Work harder. Work better.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []

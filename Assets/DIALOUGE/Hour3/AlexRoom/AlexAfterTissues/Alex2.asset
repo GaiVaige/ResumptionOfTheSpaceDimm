@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: Alex2
   m_EditorClassIdentifier: 
   nameSpace: Alex
-  dialogue: Thanks, ASH. Wish I could help knock this case on its ass but I really
+  dialogue: Thanks, Ash. Wish I could help knock this case on its ass but I really
     can't move much anymore.
-  art: []
+  art:
+  - {fileID: 21300000, guid: fab937524726b9443a47ff2bbc5e90a8, type: 3}
+  - {fileID: 21300000, guid: fab937524726b9443a47ff2bbc5e90a8, type: 3}
+  - {fileID: 21300000, guid: fab937524726b9443a47ff2bbc5e90a8, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
+  - {fileID: 21300000, guid: aef271acd80b8344c8e7072735211520, type: 3}
   nextDialogue: {fileID: 11400000, guid: 4819fd889c3faf143901e19ebe38a3e0, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
