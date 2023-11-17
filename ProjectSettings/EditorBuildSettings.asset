@@ -11,10 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hour1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Scenes/TestScene.unity
-    guid: 5845b8e19492d2f4185147f760314fb5
   - enabled: 1
     path: Assets/Scenes/Hour2.unity
     guid: 28ab6c5155c3af84e9fc3e58d4edcb46
+  - enabled: 1
+    path: Assets/Scenes/Hour3.unity
+    guid: d8143d0890b167c49905430df8557406
+  - enabled: 1
+    path: Assets/Scenes/Final Hour.unity
+    guid: 0205cf59b6b1d704cb9f3eb4bae6f717
   m_configObjects: {}

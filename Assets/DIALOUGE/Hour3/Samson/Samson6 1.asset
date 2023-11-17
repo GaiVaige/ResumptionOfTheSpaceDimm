@@ -20,5 +20,5 @@ MonoBehaviour:
   dialogueChoicePreview: Why would you do this?
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
-  sc: {fileID: 0}
+  sc: {fileID: 8300000, guid: b7e45b8339670a84fa1adc536423df51, type: 3}
   goNextHour: 0

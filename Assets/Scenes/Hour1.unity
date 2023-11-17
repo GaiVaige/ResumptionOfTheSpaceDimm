@@ -1591,6 +1591,11 @@ PrefabInstance:
       objectReference: {fileID: 754545535}
     - target: {fileID: 7575242169846577815, guid: b9c6c8672b757e446995e52a3dddfa71,
         type: 3}
+      propertyPath: sprintRate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575242169846577815, guid: b9c6c8672b757e446995e52a3dddfa71,
+        type: 3}
       propertyPath: checkDistance
       value: 5
       objectReference: {fileID: 0}
