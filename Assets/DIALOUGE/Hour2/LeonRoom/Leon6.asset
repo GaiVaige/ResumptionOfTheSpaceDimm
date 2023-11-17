@@ -22,6 +22,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9a761943be4f0bb4b9ef26acaa0e6dc1, type: 2}
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
-  itemToAdd: {fileID: 0}
+  itemToAdd: {fileID: 7211957196035562745, guid: 7e079911dd89a5c4c8e34700ec13dc7a,
+    type: 3}
   sc: {fileID: 0}
   goNextHour: 0

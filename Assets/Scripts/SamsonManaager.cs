@@ -10,6 +10,9 @@ public class SamsonEndOfHourManager : MonoBehaviour
     PlayerInventory pi;
     int currentCount;
     [Header("MAKE THIS THE SAME LENGHT AS THE SAMSON ITEMS")]
+    public DialogueScriptableObject forceLoadDialogue;
+    public GameObject de;
+
 
     public bool[] hasItems;
     public bool allItems;
@@ -50,9 +53,9 @@ public class SamsonEndOfHourManager : MonoBehaviour
 
         if (IsAllTrue(hasItems) && hasntGivenItem)
         {
-
-                pi.playerItems.Add(itemsToHave.itemToGive.gameObject);
-                hasntGivenItem = false;
+            de.GetComponent<DialogueEngine>().nextDialogue = forceLoadDialogue;
+            pi.playerItems.Add(itemsToHave.itemToGive.gameObject);
+            hasntGivenItem = false;
 
 
         }
