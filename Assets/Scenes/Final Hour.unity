@@ -2390,19 +2390,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 9002153189167495026}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1685060897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1685060893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9108b251a65afb0499bd808a1610a5df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneToLoad: Credits
 --- !u!65 &1685060898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3044,10 +3031,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1685060898}
-    - targetCorrespondingSourceObject: {fileID: 769206325084010322, guid: 1c77085eef169514c921abc5b52166c6,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1685060897}
     - targetCorrespondingSourceObject: {fileID: 5848397637631506542, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       insertIndex: -1
