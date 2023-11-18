@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Posters
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: Leon's posters. If they're, red I can't tell.
+  dialogue: Leon's posters. If they're red, I can't tell.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
