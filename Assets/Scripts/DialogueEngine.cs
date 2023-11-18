@@ -47,7 +47,6 @@ public class DialogueEngine : MonoBehaviour
 
         imageInt = 0;
 
-        imageOverride.SetActive(false);
 
 
 

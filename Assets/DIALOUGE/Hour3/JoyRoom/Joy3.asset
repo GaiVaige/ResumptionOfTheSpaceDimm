@@ -24,7 +24,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f798af140e1d58443bf182a4b97adfb9, type: 3}
   nextDialogue: {fileID: 11400000, guid: fd6058974aecb494da00b4a7a8d88825, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: 
+  dialogueChoicePreview: ...
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}
