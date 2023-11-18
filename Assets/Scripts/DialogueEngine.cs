@@ -45,7 +45,9 @@ public class DialogueEngine : MonoBehaviour
         uim = FindObjectOfType<UIManager>();
         goNextHour = false;
 
+        imageInt = 0;
 
+        imageOverride.SetActive(false);
 
 
 
@@ -236,17 +238,13 @@ public class DialogueEngine : MonoBehaviour
         if (loadedDialogue != null)
         {
 
-            imageInt = 0;
-
-            if (loadedDialogue.art.Length != 0)
+            if(loadedDialogue.art.Length != 0)
             {
-
-                image = loadedDialogue.art[imageInt];
                 imageOverride.SetActive(true);
-            }
-            else
-            {
-                imageOverride.SetActive(false);
+                image = loadedDialogue.art[0];
+                imageInt = 0;
+
+
             }
 
             hasntAddedItem = true;

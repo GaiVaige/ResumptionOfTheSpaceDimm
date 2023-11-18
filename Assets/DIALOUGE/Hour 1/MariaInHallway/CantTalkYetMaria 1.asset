@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CantTalkYetMaria 1
   m_EditorClassIdentifier: 
   nameSpace: Alex
-  dialogue: Samson callled for you.
+  dialogue: Samson called for you.
   art:
   - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
   - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
