@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LockedIn
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: We're suck in here. I can't get to the rest of the ship.
+  dialogue: We're stuck in here. I can't get to the rest of the ship.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
