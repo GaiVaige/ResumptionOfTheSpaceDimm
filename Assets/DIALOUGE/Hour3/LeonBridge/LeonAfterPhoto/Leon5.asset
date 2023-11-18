@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Leon
   dialogue: If it wasn't for you guys, I would have never been stuck here. Screw
-    Zonarc. Why did SAMSON have to pressure us into taking the mission. Bio-weapon
-    research my ass.
+    Zonarc. Why did Sasmon have to pressure us into taking the mission. Experimental
+    weapons research my ass.
   art:
   - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}
   - {fileID: 21300000, guid: a320dba3bb71a4d498d94d1e6772cc84, type: 3}

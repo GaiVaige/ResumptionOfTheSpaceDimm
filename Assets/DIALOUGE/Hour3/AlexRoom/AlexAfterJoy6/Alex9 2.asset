@@ -21,7 +21,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
   - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
   - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 56b03cf6595509044ae07bd65107bb30, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: It's you.
   dsoToAddOveride: {fileID: 11400000, guid: 56b03cf6595509044ae07bd65107bb30, type: 2}

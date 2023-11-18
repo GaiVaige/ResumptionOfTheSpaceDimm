@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Joy
   dialogue: The team is dying, and here we are! What a glorious shit-hole. I hate
-    myself, ASH! Happy? Is that what you wanted me to say? I'm here FOR YOU. I joined
+    myself, Ash! Happy? Is that what you wanted me to say? I'm here FOR YOU. I joined
     this team FOR YOU.
   art:
   - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}

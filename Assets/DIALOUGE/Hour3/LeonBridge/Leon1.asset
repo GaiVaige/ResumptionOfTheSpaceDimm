@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Leon
   dialogue: Hey. *cough*. It's my bro, Ash! We were something, huh? Fighters. Killers.
-    Licensed contractors. Hard to imagine we would go out like this. I always thought
+    Licensed Carpenters. Hard to imagine we would go out like this. I always thought
     we would go down doing the right thing.
   art:
   - {fileID: 21300000, guid: 4ef66af937418f540b841710393de520, type: 3}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Leon
   dialogue: 'I need another Space Beer... could you get me one? We keep them in the
-    space beer fridge on the Bridge. '
+    Space Beer on the Bridge. '
   art:
   - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
   - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Class13
   m_EditorClassIdentifier: 
   nameSpace: Project ASH
-  dialogue: Project ASH was successfully neutralized, averting a potential global
+  dialogue: Project ASH was successfully neutralized, averting a potential universal
     catastrophe. The aftermath analysis revealed the importance of enhanced oversight
-    and international collaboration to prevent the unauthorized development of [REDACTED].
+    and intergalacitc collaboration to prevent the unauthorized development of [REDACTED].
   art:
   - {fileID: 21300000, guid: ffd97408138afba4f9d06f7fae4990f8, type: 3}
   nextDialogue: {fileID: 0}

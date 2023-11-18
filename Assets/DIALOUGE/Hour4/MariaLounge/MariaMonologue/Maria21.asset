@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Maria21
   m_EditorClassIdentifier: 
   nameSpace: Maria
-  dialogue: Could you get me a space beer, please Ash?
+  dialogue: Could you get me a Space Beer, please Ash?
   art:
   - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
   - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}

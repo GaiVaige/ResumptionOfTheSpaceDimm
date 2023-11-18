@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   nameSpace: Ash
-  dialogue: Space beer... Leon wanted some.
+  dialogue: Space Beer... Leon wanted some.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []

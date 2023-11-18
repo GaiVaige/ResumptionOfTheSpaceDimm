@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LeonDEAD
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: Leon's coughs harshly as his helmet fills with blood. You hear him gurgle
+  dialogue: Leon coughs harshly as his helmet explodes with blood. You hear him gurgle
     in his own spit.
   art: []
   nextDialogue: {fileID: 0}

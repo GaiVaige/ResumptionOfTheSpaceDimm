@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Maria2
   m_EditorClassIdentifier: 
   nameSpace: Maria
-  dialogue: You should hit the self destruct button. The heat generated from the
+  dialogue: You should hit the SELF DESTRUCT button. The heat generated from the
     explosion should eradicate the virus. It's the best we can do.
   art:
   - {fileID: 21300000, guid: c09837cc84bf2114b902f1448845aff9, type: 3}

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
   m_Name: SamsonOverMic
   m_EditorClassIdentifier: 
-  nameSpace: Samson
-  dialogue: 'ASH! Report back to me at the escape pod immediately! Something''s gone
+  nameSpace: Samson [OVER COMMS]
+  dialogue: 'ASH! Report back to me at the Escape Pod immediately! Something''s gone
     wrong! '
   art: []
   nextDialogue: {fileID: 0}

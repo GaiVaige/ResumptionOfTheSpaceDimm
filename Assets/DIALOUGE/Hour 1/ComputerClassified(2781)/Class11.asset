@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Operation Vermilion
   dialogue: Despite the dire circumstances, the team owes its survival to [REDACTED],
-    whose quick thinking and exceptional skills prevented [REDACTED]
+    whose quick thinking and exceptional skills prevented [REDACTED].
   art:
   - {fileID: 21300000, guid: ffd97408138afba4f9d06f7fae4990f8, type: 3}
   nextDialogue: {fileID: 11400000, guid: bc329b682d4e15f45b0fa5e5885029c3, type: 2}
