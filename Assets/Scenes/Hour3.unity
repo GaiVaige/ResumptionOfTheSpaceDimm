@@ -1329,10 +1329,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 490349236}
-    - targetCorrespondingSourceObject: {fileID: 3093989754205100996, guid: bcebbdf470b50a948add63f468f2a500,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 490349235}
   m_SourcePrefab: {fileID: 100100000, guid: bcebbdf470b50a948add63f468f2a500, type: 3}
 --- !u!4 &490349233 stripped
 Transform:
@@ -1346,31 +1342,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 490349232}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &490349235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 490349234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dda35d72d66e24d4ea50db2717c82ae5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dso: {fileID: 11400000, guid: 5eb0ee5eded283b4d94830ad124a7355, type: 2}
-  dsoToAdd: {fileID: 0}
-  noMore: 0
-  doCounter: 0
-  counter: 0
-  max: 0
-  doModelSwap: 0
-  modelToSwapTO: {fileID: 0}
-  modelToDisable: {fileID: 0}
-  destroyObjectToo: 0
-  soound: {fileID: 0}
-  doSearchByName: 0
-  soundName: 
 --- !u!114 &490349236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1398,6 +1369,11 @@ MonoBehaviour:
     itemToCheckFor: {fileID: 6454493564858012011, guid: 28771a1a7f29ad941adffe03bd6d6e68,
       type: 3}
     soc: {fileID: 2354963085072920961, guid: 3b5fccfc8ee216a44af711b08754af57, type: 3}
+  - hasItem: 0
+    dialogueUpdated: 0
+    itemToCheckFor: {fileID: 2942231926736760329, guid: b47c86f8e11e9914aa3680a4e2b789b0,
+      type: 3}
+    soc: {fileID: 8109407031205739201, guid: ac508998fae5e36438ee94266359f05b, type: 3}
 --- !u!136 &490349237
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2713,7 +2689,7 @@ GameObject:
   - component: {fileID: 1316015573}
   - component: {fileID: 1316015572}
   - component: {fileID: 1316015571}
-  - component: {fileID: 1316015570}
+  - component: {fileID: 1316015575}
   m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -2721,31 +2697,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1316015570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1316015569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dda35d72d66e24d4ea50db2717c82ae5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dso: {fileID: 11400000, guid: 95808845bccf30247bd6ee9e124eea3a, type: 2}
-  dsoToAdd: {fileID: 0}
-  noMore: 0
-  doCounter: 1
-  counter: 0
-  max: 1
-  doModelSwap: 0
-  modelToSwapTO: {fileID: 0}
-  modelToDisable: {fileID: 0}
-  destroyObjectToo: 1
-  soound: {fileID: 1291100168}
-  doSearchByName: 0
-  soundName: 
 --- !u!65 &1316015571
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2833,6 +2784,28 @@ Transform:
   - {fileID: 2076172236}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1316015575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316015569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95747776e69de442b633efc7afa6a7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentCapacity: 0
+  soc: {fileID: 0}
+  modeltoswapto: {fileID: 0}
+  modeltodelete: {fileID: 0}
+  items:
+  - hasItem: 0
+    dialogueUpdated: 0
+    itemToCheckFor: {fileID: 7258223782662981712, guid: cb34765e0ee6e65429d275dbeacb34d4,
+      type: 3}
+    soc: {fileID: 1861665344326487317, guid: 4ed7e721025d6c540a53877c12ea4a9d, type: 3}
 --- !u!1001 &1341265329
 PrefabInstance:
   m_ObjectHideFlags: 0
