@@ -20,6 +20,16 @@ public class NPCManager : MonoBehaviour
     {
         pi = FindAnyObjectByType<PlayerInventory>();
         currentCapacity = pi.playerItems.Count;
+        soc = GetComponent<ScriptableObjectContainer>();
+
+        if (soc != null)
+        {
+            if (soc.doModelSwap)
+            {
+                soc.modelToDisable = modeltodelete;
+                soc.modelToSwapTO = modeltoswapto;
+            }
+        }
     }
 
 

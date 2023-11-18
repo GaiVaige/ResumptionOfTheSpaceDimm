@@ -519,7 +519,7 @@ PrefabInstance:
     - target: {fileID: 1315830917591000674, guid: 614caed8c491a4f41956bf1314ab5351,
         type: 3}
       propertyPath: playConstant
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1865290632674869370, guid: 614caed8c491a4f41956bf1314ab5351,
         type: 3}
@@ -594,7 +594,7 @@ PrefabInstance:
     - target: {fileID: 8148343911063177344, guid: 614caed8c491a4f41956bf1314ab5351,
         type: 3}
       propertyPath: m_PlayOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1008,9 +1008,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8148343911063177344, guid: 614caed8c491a4f41956bf1314ab5351,
         type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148343911063177344, guid: 614caed8c491a4f41956bf1314ab5351,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148343911063177344, guid: 614caed8c491a4f41956bf1314ab5351,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148343911063177344, guid: 614caed8c491a4f41956bf1314ab5351,
+        type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d4419f9150d4cbd449b5325698360681, type: 3}
+      objectReference: {fileID: 8300000, guid: e6f458e2870b5f345b7c09cb3d3c1964, type: 3}
     - target: {fileID: 8148343911063177344, guid: 614caed8c491a4f41956bf1314ab5351,
         type: 3}
       propertyPath: m_PlayOnAwake
@@ -1183,7 +1198,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 972b350d45f5e0045b2e1390a8f4e65e, type: 3}
+      objectReference: {fileID: 8300000, guid: fa15e8fbfde59d244af2431f3d8c9a2d, type: 3}
     - target: {fileID: 8148343911063177344, guid: 614caed8c491a4f41956bf1314ab5351,
         type: 3}
       propertyPath: m_PlayOnAwake

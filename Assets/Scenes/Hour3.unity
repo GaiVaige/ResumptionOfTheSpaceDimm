@@ -1227,9 +1227,9 @@ MonoBehaviour:
   doCounter: 0
   counter: 0
   max: 0
-  doModelSwap: 1
-  modelToSwapTO: {fileID: 485961739}
-  modelToDisable: {fileID: 1659628202}
+  doModelSwap: 0
+  modelToSwapTO: {fileID: 0}
+  modelToDisable: {fileID: 0}
   destroyObjectToo: 0
   soound: {fileID: 0}
 --- !u!114 &490349236
@@ -1657,6 +1657,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 363925780530215536, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+        type: 3}
+      propertyPath: playConstant
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1110451352180797541, guid: 28c1bdf7bba52cc4696d08beb208f66f,
         type: 3}
       propertyPath: m_Name
@@ -1667,6 +1672,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: d24446dc4570d1949aecd5cfb41277d1, type: 3}
+    - target: {fileID: 7375368088667264146, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8047350793917396226, guid: 28c1bdf7bba52cc4696d08beb208f66f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2501,7 +2511,7 @@ PrefabInstance:
     - target: {fileID: 2430782600494154110, guid: bcebbdf470b50a948add63f468f2a500,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.327
+      value: 50.232
       objectReference: {fileID: 0}
     - target: {fileID: 2430782600494154110, guid: bcebbdf470b50a948add63f468f2a500,
         type: 3}
@@ -2511,7 +2521,7 @@ PrefabInstance:
     - target: {fileID: 2430782600494154110, guid: bcebbdf470b50a948add63f468f2a500,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.159
+      value: 17.37
       objectReference: {fileID: 0}
     - target: {fileID: 2430782600494154110, guid: bcebbdf470b50a948add63f468f2a500,
         type: 3}
@@ -2645,10 +2655,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1341265334}
-    - targetCorrespondingSourceObject: {fileID: 3093989754205100996, guid: bcebbdf470b50a948add63f468f2a500,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1341265335}
   m_SourcePrefab: {fileID: 100100000, guid: bcebbdf470b50a948add63f468f2a500, type: 3}
 --- !u!4 &1341265330 stripped
 Transform:
@@ -2684,6 +2690,11 @@ MonoBehaviour:
     itemToCheckFor: {fileID: 8254495616298787845, guid: 2d60c4c50340b174b9a9e989a8889d93,
       type: 3}
     soc: {fileID: 6062305471053386936, guid: 9b3de23798578fa4e87e7684d40e6b8a, type: 3}
+  - hasItem: 0
+    dialogueUpdated: 0
+    itemToCheckFor: {fileID: 7035332264043353611, guid: 923233442fe4cae4f923f5caa402e1db,
+      type: 3}
+    soc: {fileID: 4064161480028252139, guid: 2b2a4804bc025b548a9925911b4d17f3, type: 3}
 --- !u!136 &1341265334
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2707,29 +2718,6 @@ CapsuleCollider:
   m_Height: 2.5216522
   m_Direction: 1
   m_Center: {x: 0, y: 0.7608259, z: 0}
---- !u!114 &1341265335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1341265331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dda35d72d66e24d4ea50db2717c82ae5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dso: {fileID: 11400000, guid: 80f6d0dc50799a2428d266c6e5190717, type: 2}
-  dsoToAdd: {fileID: 0}
-  noMore: 0
-  doCounter: 1
-  counter: 0
-  max: 1
-  doModelSwap: 0
-  modelToSwapTO: {fileID: 0}
-  modelToDisable: {fileID: 0}
-  destroyObjectToo: 0
-  soound: {fileID: 0}
 --- !u!1 &1417846422
 GameObject:
   m_ObjectHideFlags: 0

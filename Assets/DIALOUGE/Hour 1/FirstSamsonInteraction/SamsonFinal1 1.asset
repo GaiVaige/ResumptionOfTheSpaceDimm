@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: I will NOT hesitate to leave if I see any signs of infection. You have
     2 hours until I leave.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 35fa33f24d1941d47b1ab34a4a05fdf5, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: Unknown.
   dsoToAddOveride: {fileID: 0}

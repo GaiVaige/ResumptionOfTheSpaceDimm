@@ -15,7 +15,7 @@ MonoBehaviour:
   nameSpace: USS CHEKIBUNDI
   dialogue: POWER LEVELS CRITICAL. MAJOR SYSTEMS OFFLINE.
   art: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 35fa33f24d1941d47b1ab34a4a05fdf5, type: 2}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 11400000, guid: 5dc7d56ffb925f949afebfe848b9b745, type: 2}

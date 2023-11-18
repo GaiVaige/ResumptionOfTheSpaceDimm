@@ -440,7 +440,8 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1315830917591000674, guid: 614caed8c491a4f41956bf1314ab5351, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -752,7 +753,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1eb66bc1325dd49dbbddc161587bafe8,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 214074998}
+      addedObject: {fileID: 214075000}
   m_SourcePrefab: {fileID: 100100000, guid: 1eb66bc1325dd49dbbddc161587bafe8, type: 3}
 --- !u!1 &214074997 stripped
 GameObject:
@@ -760,29 +761,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 214074996}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &214074998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 214074997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dda35d72d66e24d4ea50db2717c82ae5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dso: {fileID: 11400000, guid: 3af291038ca73f24ab0337ce67ef3a38, type: 2}
-  dsoToAdd: {fileID: 0}
-  noMore: 0
-  doCounter: 1
-  counter: 0
-  max: 1
-  doModelSwap: 0
-  modelToSwapTO: {fileID: 0}
-  modelToDisable: {fileID: 0}
-  destroyObjectToo: 1
-  soound: {fileID: 754545537}
 --- !u!65 &214074999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -804,6 +782,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &214075000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214074997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95747776e69de442b633efc7afa6a7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentCapacity: 0
+  soc: {fileID: 0}
+  modeltoswapto: {fileID: 0}
+  modeltodelete: {fileID: 0}
+  items:
+  - hasItem: 0
+    dialogueUpdated: 0
+    itemToCheckFor: {fileID: 7307118495988087337, guid: 6bd1e15b99e45b643b374cda0fac4569,
+      type: 3}
+    soc: {fileID: 955382340119810369, guid: 36cbe925a830e9a4fa0efd3a4f0f3191, type: 3}
 --- !u!1 &235147449
 GameObject:
   m_ObjectHideFlags: 0
@@ -1690,7 +1690,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 972b350d45f5e0045b2e1390a8f4e65e, type: 3}
+      objectReference: {fileID: 8300000, guid: fa15e8fbfde59d244af2431f3d8c9a2d, type: 3}
     - target: {fileID: 7375368088667264146, guid: 28c1bdf7bba52cc4696d08beb208f66f,
         type: 3}
       propertyPath: Loop
@@ -1706,6 +1706,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 29c12c048fd64ee409b4b650bede1191, type: 3}
+    - target: {fileID: 7375368088667264146, guid: 28c1bdf7bba52cc4696d08beb208f66f,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8047350793917396226, guid: 28c1bdf7bba52cc4696d08beb208f66f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1781,12 +1786,6 @@ AudioSource:
 --- !u!82 &754545536 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 5052749666924980554, guid: 28c1bdf7bba52cc4696d08beb208f66f,
-    type: 3}
-  m_PrefabInstance: {fileID: 754545533}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &754545537 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 2192394639301500068, guid: 28c1bdf7bba52cc4696d08beb208f66f,
     type: 3}
   m_PrefabInstance: {fileID: 754545533}
   m_PrefabAsset: {fileID: 0}

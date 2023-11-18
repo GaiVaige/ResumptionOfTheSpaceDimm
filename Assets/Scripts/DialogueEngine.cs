@@ -30,7 +30,7 @@ public class DialogueEngine : MonoBehaviour
 
     public bool goNextHour;
 
-    public AudioSource dialogueAudioEngine;
+    //public AudioSource dialogueAudioEngine;
 
     private Queue<string> sentences;
     string sentence;
@@ -46,10 +46,20 @@ public class DialogueEngine : MonoBehaviour
         goNextHour = false;
 
 
-        if(loadedDialogue.art.Length == 0)
+        if(loadedDialogue != null)
         {
-            imageOverride.SetActive(false);
+            if (loadedDialogue.art.Length == 0)
+            {
+                imageOverride.SetActive(false);
+            }
+            else
+            {
+                image = loadedDialogue.art[0];
+            }
         }
+
+
+
 
 
     }
@@ -175,11 +185,11 @@ public class DialogueEngine : MonoBehaviour
             imageOverride.SetActive(false);
         }
 
-        if (loadedDialogue.sc != null)
-        {
-            dialogueAudioEngine.clip = loadedDialogue.sc;
-            dialogueAudioEngine.Play();
-        }
+        //if (loadedDialogue.sc != null)
+        //{
+        //    dialogueAudioEngine.clip = loadedDialogue.sc;
+        //    dialogueAudioEngine.Play();
+        //}
 
 
     }
@@ -284,11 +294,11 @@ public class DialogueEngine : MonoBehaviour
             }
 
 
-            if (loadedDialogue.sc != null)
-            {
-                dialogueAudioEngine.clip = loadedDialogue.sc;
-                dialogueAudioEngine.Play();
-            }
+            //if (loadedDialogue.sc != null)
+            //{
+            //    dialogueAudioEngine.clip = loadedDialogue.sc;
+            //    dialogueAudioEngine.Play();
+            //}
 
 
         }

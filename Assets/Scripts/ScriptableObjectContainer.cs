@@ -99,6 +99,10 @@ public class ScriptableObjectContainer : MonoBehaviour
                     modelToSwapTO.SetActive(true);
                     modelToDisable.SetActive(false);
                     doModelSwap = false;
+                    if (destroyObjectToo)
+                    {
+                        Destroy(this.gameObject);
+                    }
                     Destroy(this);
                 }
 
