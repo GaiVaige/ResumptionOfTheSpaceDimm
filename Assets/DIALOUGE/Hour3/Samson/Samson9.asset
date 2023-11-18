@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Samson9
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: You can hear SAMSON gasp for air, and fall to the floor with a thud.
+  dialogue: You can hear Samson gasp for air, and fall to the floor with a thud.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []

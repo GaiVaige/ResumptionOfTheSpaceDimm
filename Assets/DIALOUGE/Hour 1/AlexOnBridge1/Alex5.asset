@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Alex5
   m_EditorClassIdentifier: 
   nameSpace: Alex
-  dialogue: 'Already locking himself in the escape pod has put the others on edge...
-    and now half the crew is missing? He knows something. '
+  dialogue: Already locking himself in the escape pod has put the others on edge...
+    and now half the crew is missing? He knows a lot more than he's letting on.
   art:
   - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
   - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}

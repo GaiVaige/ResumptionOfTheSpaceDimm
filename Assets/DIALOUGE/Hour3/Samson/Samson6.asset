@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Samson
   dialogue: Does it matter? Nothing I could say would satisfy you. Maybe it was money.
-    Maybe a genuine hatred for the lot of you. It's done. The crew is dying off.
-    And I'll be able to get to the ZDR Respiratory Lab for decontamination *cough*.
+    Maybe a genuine hatred for robots and Space Pirates. It's done. The crew is dying
+    off. And I'll be able to get to the ZDR Respiratory Lab for decontamination *cough*.
     Goodbye ASH.
   art: []
   nextDialogue: {fileID: 11400000, guid: ea6779a782f18bc4e8ccf2432dd659df, type: 2}

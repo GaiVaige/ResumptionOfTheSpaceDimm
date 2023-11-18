@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: HPDialogue
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: Headphones, Joy wanted these.
+  dialogue: Headphones, maybe it'll drown out this hopeless situation.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []

@@ -21,5 +21,5 @@ MonoBehaviour:
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 7872115336967436402, guid: 8c0e7811def6b064cbf3379d5edbee3d,
     type: 3}
-  sc: {fileID: 8300000, guid: d4419f9150d4cbd449b5325698360681, type: 3}
+  sc: {fileID: 8300000, guid: 640e54588b063404c8e2fa131351ff2c, type: 3}
   goNextHour: 0

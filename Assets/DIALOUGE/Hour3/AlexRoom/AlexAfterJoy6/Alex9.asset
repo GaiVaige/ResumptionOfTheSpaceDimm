@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Alex9
   m_EditorClassIdentifier: 
   nameSpace: Alex
-  dialogue: Pfft. Crazy talk.
+  dialogue: Haha. Could you imagine that? *cough* Ack!
   art:
   - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
   - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
@@ -23,7 +23,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c74a07f1c67472f46bb5d0c4778da62f, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: It's SAMSON.
+  dialogueChoicePreview: It's Samson.
   dsoToAddOveride: {fileID: 11400000, guid: 56b03cf6595509044ae07bd65107bb30, type: 2}
   itemToAdd: {fileID: 2070574351482886327, guid: f5e4c08d1716aa742966e5d8e5400397,
     type: 3}

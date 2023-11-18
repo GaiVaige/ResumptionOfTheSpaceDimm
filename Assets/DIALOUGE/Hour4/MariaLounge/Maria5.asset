@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Maria
   dialogue: Maybe don't take things as fact? Maybe it's all one big cautionary tale
-    about corporations. Maybe there *isn't* an overall meaning. Maybe you just have
-    to accept the things the way they are. Let the universe guide you.
+    about your trust in others. Maybe there *isn't* an overall meaning. Maybe you
+    just have to accept the things the way they are, and do the best you can do.
   art:
   - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}
   - {fileID: 21300000, guid: 76b3f1809d324ac41a46d5a944c37ec6, type: 3}

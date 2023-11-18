@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: JoyDEAD
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: There is no response.
+  dialogue: Joy makes a final gasp for air, before finally slumping over.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []

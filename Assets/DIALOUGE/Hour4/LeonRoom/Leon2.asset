@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Leon2
   m_EditorClassIdentifier: 
   nameSpace: Leon
-  dialogue: Thank you. That means a lot. At least I can say I had a friend through
-    all of this. At least I get a real goodbye.
+  dialogue: At least I get a real goodbye.
   art:
   - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
   - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
@@ -26,7 +25,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: dbfba9a9348bdb1468256c77a9bfd209, type: 3}
   nextDialogue: {fileID: 11400000, guid: 929fb11b5790b8348aa0a5b5a211270c, type: 2}
   dialogueChoice: []
-  dialogueChoicePreview: You did good.
+  dialogueChoicePreview: I'm sorry I couldn't be of help.
   dsoToAddOveride: {fileID: 11400000, guid: 929fb11b5790b8348aa0a5b5a211270c, type: 2}
   itemToAdd: {fileID: 0}
   sc: {fileID: 0}

@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
-  m_Name: LeonDEAD
+  m_Name: 2781
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: Leon's coughs harshly as his helmet fills with blood. You hear him gurgle
-    in his own spit.
-  art: []
+  dialogue: On the table sits a scrap paper. Scribbled is the number 2781.
+  art:
+  - {fileID: 21300000, guid: 79cb4fa754edc8148ba081c81944803f, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
   dialogueChoicePreview: 
   dsoToAddOveride: {fileID: 0}
-  itemToAdd: {fileID: 2194685107526067813, guid: b5bd246b4860b554b875c931730c7b3d,
-    type: 3}
+  itemToAdd: {fileID: 0}
   sc: {fileID: 0}
   goNextHour: 0

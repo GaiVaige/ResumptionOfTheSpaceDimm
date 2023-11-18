@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SamsonDEAD
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: There is no response.
+  dialogue: You hear nothing more from the Escape Pod.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []

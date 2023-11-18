@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Joy4.3
   m_EditorClassIdentifier: 
   nameSpace: Joy
-  dialogue: ' What are you up to, huh? What does SAMSON want with you? Don''t think
+  dialogue: ' What are you up to, huh? What does Samson want with you? Don''t think
     I haven''t noticed you talking to the others.'
   art:
   - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}

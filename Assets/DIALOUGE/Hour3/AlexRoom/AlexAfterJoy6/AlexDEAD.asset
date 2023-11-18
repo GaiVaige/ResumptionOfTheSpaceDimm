@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: AlexDEAD
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: There is no response.
+  dialogue: Shock fills Alex's eyes as they grap their chest, and fall back onto
+    their bed.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []

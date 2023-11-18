@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Joy
   dialogue: I was only ever here to do my job. I'm a licensed killer. Don't really
-    do the whole "team-work"   shtick. I'm wanted by the Galactic Federation and
-    here I am working for you lot. At least I'm paid well.
+    do the whole "team-work"  shtick. I'm wanted by the Galactic Federation and here
+    I am working for you lot. At least I'm paid well.
   art:
   - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
   - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}

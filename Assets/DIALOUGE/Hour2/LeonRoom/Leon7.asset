@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Leon
   dialogue: But maybe I could have done something different! Maybe if I had just
-    *cough* *cough*. Sorry. I need to sleep. I think I drank too much space beer.
+    *cough*. Sorry. I need to sleep. I think I drank too much Space Beer.
   art:
   - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}
   - {fileID: 21300000, guid: 2c7aaa0821ac32b45b8f2093ef9a62d3, type: 3}

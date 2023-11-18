@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Joy
   dialogue: I don't have much to live for anymore. If this is the end so be it. So
-    much bloodshed has led me here. *cough* If I die now it is what the universe
+    much bloodshed has led me here. *cough*. If I die now it is what the universe
     wanted.
   art:
   - {fileID: 21300000, guid: 580835e0ea56c3b4fbb1809c92cb9db9, type: 3}
