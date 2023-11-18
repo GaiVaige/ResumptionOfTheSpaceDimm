@@ -237,6 +237,7 @@ public class DialogueEngine : MonoBehaviour
 
         if (loadedDialogue != null)
         {
+            imageOverride.SetActive(false);
 
             if(loadedDialogue.art.Length != 0)
             {

@@ -55,3 +55,5 @@ MonoBehaviour:
   modelToDisable: {fileID: 0}
   destroyObjectToo: 1
   soound: {fileID: 0}
+  doSearchByName: 1
+  soundName: PickUp_Fridge

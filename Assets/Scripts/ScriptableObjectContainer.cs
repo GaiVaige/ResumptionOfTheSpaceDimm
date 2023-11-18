@@ -29,9 +29,16 @@ public class ScriptableObjectContainer : MonoBehaviour
     public bool destroyObjectToo;
     public AudioSource soound;
 
+    public bool doSearchByName;
+    public string soundName;
     public void Start()
     {
         de = FindObjectOfType<PlayerController>();
+
+        if (doSearchByName)
+        {
+            soound = GameObject.Find(soundName).GetComponent<AudioSource>();
+        }
     }
 
 
@@ -121,6 +128,8 @@ public class ScriptableObjectContainer : MonoBehaviour
             soound.enabled = true;
             soound.Play();
         }
+
+
 
     }
 }
