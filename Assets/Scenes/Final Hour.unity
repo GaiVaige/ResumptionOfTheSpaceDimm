@@ -2553,6 +2553,8 @@ MonoBehaviour:
   modelToDisable: {fileID: 0}
   destroyObjectToo: 0
   soound: {fileID: 0}
+  doSearchByName: 0
+  soundName: 
 --- !u!114 &1179984977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3676,6 +3678,7 @@ PrefabInstance:
     - {fileID: 6248007205651762063, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
     - {fileID: 6421936479441188074, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
     - {fileID: 8315668724754374660, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
+    - {fileID: 582408418576413285, guid: 1c77085eef169514c921abc5b52166c6, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 769206325084010322, guid: 1c77085eef169514c921abc5b52166c6,
