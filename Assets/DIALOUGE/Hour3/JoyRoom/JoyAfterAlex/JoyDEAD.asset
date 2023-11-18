@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: JoyDEAD
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: Joy makes a final gasp for air, before finally slumping over.
+  dialogue: Joy makes a final gasp for air as they hand you a documentaion of your
+    logs, before finally slumping over.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
