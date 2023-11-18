@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSpace: Samson
   dialogue: I made a mistake and that is VERY hard for me to say... I accidentally
-    created an electrical shortage and fried the power in the escape pod. I can't
+    created an electrical shortage and fried the power in the Escape Pod. I can't
     leave now even if I wanted to. Here's my keycard.
   art: []
   nextDialogue: {fileID: 11400000, guid: 7250772ec1c136041a72456cbf7fe309, type: 2}
