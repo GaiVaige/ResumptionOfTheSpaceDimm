@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Joy3
   m_EditorClassIdentifier: 
   nameSpace: Joy
-  dialogue: I don't like the way you sit there and 'think'. What do you have to process?
-    Because of your inability to figure this out, I'm stuck here.
+  dialogue: I don't like the way you stand there and 'think'. What do you have to
+    process? Because of your inability to figure this out, I'm stuck here.
   art:
   - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
   - {fileID: 21300000, guid: a723f2eb18ec1dc418232247dd7f8461, type: 3}
