@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Leon3
   m_EditorClassIdentifier: 
   nameSpace: Leon
-  dialogue: Aw, bro you're the best. Space beer. It's just better, ya know? I mean
+  dialogue: Aw, bro you're the best. *Space Beer*. It's just better, ya know? I mean
     you don't know because... ya know... you can't drink them. You're missing out!
   art:
   - {fileID: 21300000, guid: 4ef66af937418f540b841710393de520, type: 3}

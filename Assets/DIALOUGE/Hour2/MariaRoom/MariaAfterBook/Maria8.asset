@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Maria8
   m_EditorClassIdentifier: 
   nameSpace: Maria
-  dialogue: In the quiet realm of sleep, our minds become time travelers, unraveling
-    memories like ancient scrolls, and every nocturnal adventure is a whispered conversation
+  dialogue: In the realm of sleep, our minds become time travelers, unraveling memories
+    like ancient scrolls, and every nocturnal adventure is a whispered conversation
     with our own history.
   art:
   - {fileID: 21300000, guid: c09837cc84bf2114b902f1448845aff9, type: 3}

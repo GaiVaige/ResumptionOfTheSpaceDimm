@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Alex3
   m_EditorClassIdentifier: 
   nameSpace: Alex
-  dialogue: Thanks Ash... say... have you noticed anything weird with SAM lately?
+  dialogue: Thanks Ash... say... have you noticed anything weird with Sam lately?
+    Besides the whole escape pod fiasco.
   art:
   - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}
   - {fileID: 21300000, guid: ecbb2952b4c50644d8f820c4822d64b7, type: 3}

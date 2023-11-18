@@ -27,7 +27,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 662d27bb22f36fc40bfe1615494743c9, type: 3}
   nextDialogue: {fileID: 0}
   dialogueChoice: []
-  dialogueChoicePreview: That's beautiful.
+  dialogueChoicePreview: Touching.
   dsoToAddOveride: {fileID: 0}
   itemToAdd: {fileID: 1538219559458012407, guid: d6d7ad790c4a7a94eb47070e6e0b7329,
     type: 3}
