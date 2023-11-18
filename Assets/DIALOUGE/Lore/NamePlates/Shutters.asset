@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 122e5bdd3c54fd246abe597ce0f76b6c, type: 3}
-  m_Name: Posters
+  m_Name: Shutters
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: Leon's posters. They're pictures of his favourite Intergalactic bands.
+  dialogue: Shutters are only closed when the ship has been put on lock-down. The
+    only people I know that have that power are Alex and Samson. I can't find anything
+    in my database about the last time this happened.
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []

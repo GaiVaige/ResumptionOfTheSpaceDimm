@@ -4434,6 +4434,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3559611258912684866, guid: 1c77085eef169514c921abc5b52166c6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.602
+      objectReference: {fileID: 0}
     - target: {fileID: 3746432592321881780, guid: 1c77085eef169514c921abc5b52166c6,
         type: 3}
       propertyPath: doorLockedSound

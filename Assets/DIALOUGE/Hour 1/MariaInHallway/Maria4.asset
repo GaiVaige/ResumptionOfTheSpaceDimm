@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Maria4
   m_EditorClassIdentifier: 
   nameSpace: Maria
-  dialogue: Can I trust you to look into it?
+  dialogue: I trust you'll figure this all out.
   art:
   - {fileID: 21300000, guid: c09837cc84bf2114b902f1448845aff9, type: 3}
   - {fileID: 21300000, guid: c09837cc84bf2114b902f1448845aff9, type: 3}

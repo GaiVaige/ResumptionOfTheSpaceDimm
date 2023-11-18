@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Damo
   m_EditorClassIdentifier: 
   nameSpace: 
-  dialogue: Damo - Gunner
+  dialogue: Thomas - Gunner
   art: []
   nextDialogue: {fileID: 0}
   dialogueChoice: []
