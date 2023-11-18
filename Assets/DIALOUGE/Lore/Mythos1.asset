@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mythos1
   m_EditorClassIdentifier: 
   nameSpace: Mythos & Legend
-  dialogue: Nothing strikes Ash of interest... besides one page that has been torn
+  dialogue: Nothing strikes you of interest... besides one page that has been torn
     out.
   art:
   - {fileID: 21300000, guid: 89f45d873f0bd4c4083a6fca74131b6c, type: 3}
