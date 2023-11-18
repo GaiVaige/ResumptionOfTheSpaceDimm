@@ -46,17 +46,7 @@ public class DialogueEngine : MonoBehaviour
         goNextHour = false;
 
 
-        if(loadedDialogue != null)
-        {
-            if (loadedDialogue.art.Length == 0)
-            {
-                imageOverride.SetActive(false);
-            }
-            else
-            {
-                image = loadedDialogue.art[0];
-            }
-        }
+
 
 
 
@@ -67,9 +57,6 @@ public class DialogueEngine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-
 
         if (loadedDialogue.goNextHour)
         {
@@ -243,8 +230,24 @@ public class DialogueEngine : MonoBehaviour
     {
 
 
+
+
+
         if (loadedDialogue != null)
         {
+
+            imageInt = 0;
+
+            if (loadedDialogue.art.Length != 0)
+            {
+
+                image = loadedDialogue.art[imageInt];
+                imageOverride.SetActive(true);
+            }
+            else
+            {
+                imageOverride.SetActive(false);
+            }
 
             hasntAddedItem = true;
             _dialogueText.text = "";
@@ -253,9 +256,13 @@ public class DialogueEngine : MonoBehaviour
             sentences.Enqueue(sentence);
 
 
-            imageInt = 0;
 
-            if(loadedDialogue.itemToAdd != null)
+
+
+
+
+
+            if (loadedDialogue.itemToAdd != null)
             {
                 AddItem();
             }
@@ -282,16 +289,7 @@ public class DialogueEngine : MonoBehaviour
                 StartCoroutine(TypeSentence(sentence));
             }
 
-            if (loadedDialogue.art.Length != 0)
-            {
 
-                image = loadedDialogue.art[imageInt];
-                imageOverride.SetActive(true);
-            }
-            else
-            {
-                imageOverride.SetActive(false);
-            }
 
 
             //if (loadedDialogue.sc != null)
